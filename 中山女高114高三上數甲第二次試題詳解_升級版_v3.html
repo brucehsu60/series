@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台北市立中山女中 114 學年度高三第一學期第二次段考數學科試題卷(數甲) 完整試題詳解</title>
+<script>
+window.MathJax={tex:{inlineMath:[['\\(','\\)'],['$','$']],displayMath:[['\\[','\\]'],['$$','$$']],macros:{d:'\\displaystyle'}},svg:{fontCache:'global'}};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+:root{--bg-color:#f8fafc;--card-bg:#ffffff;--text-color:#1e293b;--subtext-color:#475569;--border-color:#cbd5e1;--primary-color:#1e3a8a;--hero-bg:linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%);--hero-text:#ffffff;--hero-subtext:#cbd5e1;--mod-bg:linear-gradient(90deg,#0f172a 0%,#1e3a8a 100%);--mod-text:#ffffff;--mod-accent:#fbbf24;--reg-bg:#eff6ff;--reg-border:#3b82f6;--pro-bg:#fffbeb;--pro-border:#f59e0b;--tip-bg:#fef2f2;--tip-border:#ef4444;--clarify-bg:#f0fdf4;--clarify-border:#16a34a;--ans-bg:#f0fdf4;--ans-border:#16a34a;--svg-stroke:#334155;--svg-grid:#e2e8f0;--hl-blue:#2563eb;--hl-red:#dc2626}
+html{scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background-color:var(--bg-color);color:var(--text-color);line-height:1.8;margin:0;padding:72px 20px 60px;transition:background-color .25s,color .25s}
+.toolbar{position:fixed;top:0;left:0;right:0;background:var(--card-bg);border-bottom:1px solid var(--border-color);padding:10px 20px;display:flex;justify-content:center;gap:12px;z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.08);flex-wrap:wrap}
+.toolbar button{padding:8px 18px;border:1.5px solid var(--border-color);background:var(--bg-color);color:var(--text-color);border-radius:10px;cursor:pointer;font-weight:700;font-size:14.5px;box-shadow:0 1px 3px rgba(0,0,0,.05);transition:all .2s}
+.toolbar button:hover{background:#eff6ff;border-color:#3b82f6;color:#1e3a8a}
+.container{max-width:1040px;margin:0 auto}
+.header-card{background:var(--hero-bg);color:var(--hero-text);border-radius:14px;padding:28px 26px;margin-bottom:24px;text-align:center;box-shadow:0 8px 24px rgba(15,23,42,.14)}
+.header-card h1{margin:0 0 8px;font-size:25px;color:var(--hero-text);letter-spacing:.5px}
+.header-card p{margin:0;color:var(--hero-subtext);font-size:15.5px;font-weight:600}
+.toc-card{background:linear-gradient(135deg,#0284c7 0%,#0369a1 100%);border:none;border-radius:12px;padding:22px 28px;margin-bottom:30px;box-shadow:0 6px 20px rgba(2,132,199,.25)}
+.toc-main-header{display:flex;align-items:baseline;gap:14px;font-size:21px;font-weight:800;color:#fff;border-bottom:1.5px solid rgba(255,255,255,.35);padding-bottom:8px;margin-bottom:16px}
+.toc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px 24px}
+.toc-group-title{display:block;font-size:16px;font-weight:800;color:#fef08a;text-decoration:none;margin-bottom:6px}
+.toc-sublist{list-style:none;margin:0;padding:0 0 0 10px;border-left:2px solid rgba(255,255,255,.35)}
+.toc-sublist li{margin-bottom:4px}
+.toc-sublist a{color:#fff;text-decoration:none;font-size:14.5px;font-weight:600;display:inline-block;padding:1px 6px;border-radius:4px}
+.toc-sublist a:hover{background-color:rgba(255,255,255,.2)}
+.module-title,.topic-card{scroll-margin-top:76px}
+.module-title{font-size:20px;font-weight:800;margin:36px 0 18px;padding:12px 20px;background:var(--mod-bg);color:var(--mod-text);border-left:6px solid var(--mod-accent);border-radius:8px;box-shadow:0 4px 12px rgba(15,23,42,.1)}
+.topic-card{background:var(--card-bg);border:1px solid var(--border-color);border-radius:12px;padding:24px;margin-bottom:26px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.topic-header{font-size:18.5px;font-weight:800;margin:0 0 14px;color:var(--primary-color);border-bottom:2px dashed var(--border-color);padding-bottom:9px;display:flex;justify-content:space-between;align-items:center}
+.page-badge{font-size:13px;font-weight:700;color:var(--subtext-color);background:var(--bg-color);padding:3px 11px;border-radius:999px;border:1px solid var(--border-color)}
+.hl-blue{color:var(--hl-blue);font-weight:700}
+.hl-red{color:var(--hl-red);font-weight:700}
+.flex-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.flex-text{flex:1 1 500px}
+.flex-svg{flex:0 0 auto;margin:0 auto;background:#ffffff;color:#1e293b;border:1px solid var(--border-color);border-radius:8px;padding:8px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.theorem-box{background:var(--reg-bg);border-left:6px solid var(--reg-border);padding:15px 18px;border-radius:0 8px 8px 0;margin:14px 0}
+.example-box{background:var(--pro-bg);border-left:6px solid var(--pro-border);padding:15px 18px;border-radius:0 8px 8px 0;margin:14px 0}
+.tip-box{background:var(--tip-bg);border:2px solid var(--tip-border);border-left:8px solid var(--tip-border);padding:14px 18px;border-radius:8px;margin:14px 0}
+.clarify-box{background:var(--clarify-bg);border:2px solid var(--clarify-border);border-left:8px solid var(--clarify-border);padding:14px 18px;border-radius:8px;margin:14px 0}
+.math-table{width:100%;max-width:740px;border-collapse:collapse;margin:10px 0;background:var(--card-bg);font-size:14.5px}.math-table th,.math-table td{border:1px solid var(--border-color);padding:7px 10px;text-align:center}.math-table th{background:var(--reg-bg);font-weight:700}
+.ans-tag{background:var(--ans-bg);border:2px solid var(--ans-border);padding:6px 16px;border-radius:6px;font-weight:800;display:inline-block;margin-top:8px;font-size:16.5px}
+.box-title{font-weight:800;margin-bottom:6px;display:block;font-size:16px}
+.back-to-top{position:fixed;right:20px;bottom:22px;background:var(--primary-color);color:#fff;border-radius:999px;padding:9px 15px;font-size:13.5px;font-weight:700;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.18);z-index:999}
+@media print{
+  body{padding:0;background:#fff!important;color:#000!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .toolbar,.back-to-top{display:none!important}
+  .header-card,.module-title,.toc-card{background:#fff!important;color:#000!important;border:1px solid #000!important;box-shadow:none!important}
+  .toc-main-header,.toc-group-title,.toc-sublist a,.header-card h1,.header-card p{color:#000!important}
+  .topic-card,.theorem-box,.example-box,.clarify-box{page-break-inside:auto}
+  .topic-card{border:1px solid #000;box-shadow:none}
+  .tip-box,.example-box,.clarify-box{border:2px solid #000!important;border-left:8px solid #000!important;page-break-inside:avoid}
+  .math-table{width:100%;max-width:740px;border-collapse:collapse;margin:10px 0;background:var(--card-bg);font-size:14.5px}.math-table th,.math-table td{border:1px solid var(--border-color);padding:7px 10px;text-align:center}.math-table th{background:var(--reg-bg);font-weight:700}
+.ans-tag{border:3px double #000!important;page-break-inside:avoid}
+  strong,.hl-blue,.hl-red{font-weight:700;text-decoration:none!important}
+}
+</style>
+</head>
+<body>
+<div class="toolbar">
+    <button onclick="document.getElementById('top-index').scrollIntoView({behavior:'smooth'})">📑 回到索引</button>
+    <button onclick="printDoc()">🖨️ 立即列印 (Ctrl+P)</button>
+</div>
+
+<div class="container">
+    <div class="header-card">
+        <h1>台北市立中山女中 114 學年度高三第一學期第二次段考數學科試題卷(數甲)</h1>
+        <p>範圍：龍騰版數甲上單元 3, 4 ｜ 全卷 13 題完整解析與 17 幅精準坐標圖解</p>
+    </div>
+
+    <nav id="top-index" class="toc-card" aria-label="試題快速索引">
+        <div class="toc-main-header"><span>試題導覽</span><span>全卷共 13 題完整解析與精準坐標圖解</span></div>
+        <div class="toc-grid">
+            <div>
+                <a href="#sec-1" class="toc-group-title">一、單選題（每題 7 分，共 14 分）</a>
+                <ul class="toc-sublist">
+                    <li><a href="#q-1">第 1 題：導數定義與切線方程式</a></li>
+                    <li><a href="#q-2">第 2 題：三次函數在閉區間的極值</a></li>
+                </ul>
+                <a href="#sec-2" class="toc-group-title" style="margin-top:12px;">二、多選題（每題 5 分，共 20 分）</a>
+                <ul class="toc-sublist">
+                    <li><a href="#q-3">第 3 題：三次函數圖形與係數判定</a></li>
+                    <li><a href="#q-4">第 4 題：過拋物線外一點的切線</a></li>
+                    <li><a href="#q-5">第 5 題：由導函數 f'(x) 圖形判讀性質</a></li>
+                    <li><a href="#q-6">第 6 題：高次多項式的極值與反曲點</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#sec-3" class="toc-group-title">三、填充題（每格 6 分，共 60 分）</a>
+                <ul class="toc-sublist">
+                    <li><a href="#q-7">第 7 題：(1) 二階導數 (2) 乘積律 (3) 連鎖律 (4) 商律</a></li>
+                    <li><a href="#q-8">第 8 題：由二階導函數與極值求 f'(0)</a></li>
+                    <li><a href="#q-9">第 9 題：由三次函數反曲點坐標求係數</a></li>
+                    <li><a href="#q-10">第 10 題：三次函數沒有極值的條件</a></li>
+                    <li><a href="#q-11">第 11 題：由極小值與極限條件求三次函數</a></li>
+                    <li><a href="#q-12">第 12 題：分式函數的一次估計與近似值</a></li>
+                </ul>
+                <a href="#sec-4" class="toc-group-title" style="margin-top:12px;">四、計算題（共 6 分）</a>
+                <ul class="toc-sublist">
+                    <li><a href="#q-13">第 13 題：空間圓內接正六角錐體積最大值</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== 一、單選題 ==================== -->
+    <div id="sec-1" class="module-title">一、單選題，每題 7 分，共 14 分。</div>
+
+    <!-- 第 1 題 -->
+    <div id="q-1" class="topic-card">
+        <div class="topic-header"><span>第 1 題：極限與導數定義求切線方程式</span><span class="page-badge">單選題 1</span></div>
+        <div>
+            1. 設 $f(x) = x^4 + ax^3 + bx^2 + cx + d$，若 $\d\lim_{x \to 5}\frac{f(x) - 2}{x - 5} = \frac{1}{3}$，則 $y = f(x)$ 的圖形上以 $(5, f(5))$ 為切點的切線方程式為<br>
+            (1) $x - 3y = -1$ &nbsp; (2) $x - 3y = -13$ &nbsp; (3) $3x - 2y = 11$ &nbsp; (4) $3x - 2y = -4$ &nbsp; (5) $3x - 2y = 15$
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <strong>步驟一：由分母趨近於 0 且極限存在，求切點縱坐標 $f(5)$</strong><br>
+            因為當 $x \to 5$ 時，分母 $x - 5 \to 0$，且極限值 $\d\frac{1}{3}$ 存在，又多項式函數 $f(x)$ 處處連續，故分子極限必為 $0$：<br>
+            \[ \lim_{x \to 5}\left(f(x) - 2\right) = 0 \implies \color{#2563eb}{f(5) = 2} \]
+            <strong>步驟二：由導數定義求切線斜率 $f'(5)$</strong><br>
+            將 $f(5) = 2$ 代回原極限式，由導數定義知：<br>
+            \[ f'(5) = \lim_{x \to 5}\frac{f(x) - f(5)}{x - 5} = \color{#2563eb}{\frac{1}{3}} \]
+            <strong>步驟三：點斜式求切線方程式</strong><br>
+            切點為 $(5, f(5)) = (5, 2)$，切線斜率為 $m = \d\frac{1}{3}$，利用點斜式：<br>
+            \[ y - 2 = \frac{1}{3}(x - 5) \implies 3y - 6 = x - 5 \implies \color{#dc2626}{x - 3y = -1} \]
+            故選 <strong>(1)</strong>。
+        </div>
+        <div class="flex-row" style="margin-top:8px;">
+            <div class="flex-text">
+                <div class="example-box" style="margin:0;">
+                    <span class="box-title">🔥 【學霸另解與秒殺驗算：羅必達法則（L'Hôpital's Rule）】</span>
+                    • <strong>方法一（羅必達法則驗算）：</strong>先由分母趨近 $0$ 且極限存在得 $f(5) = 2$（切點 $(5, 2)$），確認原式為 $\d\frac{0}{0}$ 不定型後，分子、分母同時對 $x$ 微分：<br>
+                    \[ \lim_{x \to 5}\frac{f(x) - 2}{x - 5} \stackrel{\text{L'H}}{=} \lim_{x \to 5}\frac{f'(x)}{1} = f'(5) = \color{#dc2626}{\frac{1}{3}} \]
+                    • <strong>考場選項快篩：</strong>斜率 $\d\frac{1}{3}$ 必為 $x - 3y = k$ 型，刪去 (3)(4)(5)；代入切點 $(5, 2)$ 得 $5 - 6 = -1$，5 秒鎖定 <strong>(1)</strong>！
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="235" height="160" viewBox="0 0 235 160" style="display:block;margin:0 auto;"><line x1="94" y1="20" x2="94" y2="136" stroke="#e2e8f0" stroke-width="1"/><line x1="160" y1="20" x2="160" y2="136" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="70" x2="215" y2="70" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="26" x2="215" y2="26" stroke="#e2e8f0" stroke-width="1"/><line x1="18" y1="114" x2="221" y2="114" stroke="#334155" stroke-width="1.5"/><polygon points="225,114 218,110.5 218,117.5" fill="#334155"/><text x="217" y="128" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="50" y1="142" x2="50" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="50,10 46.5,17 53.5,17" fill="#334155"/><text x="56" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="39" y="126" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="94" y="126" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="160" y="126" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">5</text><text x="44" y="73.5" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="44" y="29.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">4</text><line x1="160" y1="114" x2="160" y2="70" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="50" y1="70" x2="160" y2="70" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.3" points="83.00,28.93 88.50,36.82 94.00,43.93 99.50,50.27 105.00,55.82 110.50,60.60 116.00,64.60 121.50,67.82 127.00,70.27 132.50,71.93 138.00,72.82 143.50,72.93 149.00,72.27 154.50,70.82 160.00,70.00 165.50,66.82 171.00,63.93 176.50,60.27 182.00,55.82 187.50,50.60 193.00,44.60 198.50,37.82 204.00,30.27"/><line x1="28" y1="114" x2="215" y2="51.67" stroke="#dc2626" stroke-width="1.8"/><circle cx="160" cy="70" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="28" cy="114" r="3.5" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><text x="165" y="65" fill="#dc2626" font-size="9.8" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">切點(5,2)</text><text x="138" y="104" fill="#dc2626" font-size="9.2" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">切線 x-3y=-1 (斜率1/3)</text><text x="190" y="34" fill="#2563eb" font-size="9.8" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y=f(x)</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（兩軸單位長 1:1 精準比例）</div></div>
+        </div>
+        <span class="ans-tag">答：(1)</span>
+    </div>
+
+    <!-- 第 2 題 -->
+    <div id="q-2" class="topic-card">
+        <div class="topic-header"><span>第 2 題：三次函數在閉區間 $[0, 8]$ 的最大值與最小值</span><span class="page-badge">單選題 2</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                2. 設函數 $f(x) = x^3 - 9x^2 + 15x + 2$，在區間 $[0, 8]$ 求 $f(x)$ 的最大值 $M$ 與最小值 $m$，則 $(M, m)$ 為<br>
+                (1) $(9, -23)$ &nbsp; (2) $(9, 2)$ &nbsp; (3) $(58, -23)$ &nbsp; (4) $(58, 2)$ &nbsp; (5) $(102, -23)$
+                <div class="theorem-box">
+                    <span class="box-title">📘 【正規詳解】</span>
+                    <strong>步驟一：微分求臨界點（極值候選點）</strong><br>
+                    \[ f'(x) = 3x^2 - 18x + 15 = 3(x^2 - 6x + 5) = \color{#2563eb}{3(x - 1)(x - 5)} \]
+                    令 $f'(x) = 0$，得臨界點 <span class="hl-blue">$x = 1$</span> 或 <span class="hl-blue">$x = 5$</span>（皆在閉區間 $[0, 8]$ 內）。<br>
+                    <strong>步驟二：計算臨界點與區間端點的函數值比大小</strong><br>
+                    • 左端點 $x = 0$：$f(0) = 2$<br>
+                    • 極大點 $x = 1$：$f(1) = 1 - 9 + 15 + 2 = 9$<br>
+                    • 極小點 $x = 5$：$f(5) = 125 - 225 + 75 + 2 = \color{#dc2626}{-23}$<br>
+                    • 右端點 $x = 8$：$f(8) = 512 - 576 + 120 + 2 = \color{#dc2626}{58}$<br>
+                    比較四個數值知：最大值 $M = 58$，最小值 $m = -23$，即 <span class="hl-red">$(M, m) = (58, -23)$</span>。故選 <strong>(3)</strong>。
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="245" height="200" viewBox="0 0 245 200" style="display:block;margin:0 auto;"><line x1="62.94" y1="22" x2="62.94" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="103.98" y1="22" x2="103.98" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="145.02" y1="22" x2="145.02" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="206.58" y1="22" x2="206.58" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="162.14" x2="223" y2="162.14" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="123.64" x2="223" y2="123.64" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="112.86" x2="223" y2="112.86" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="37.40" x2="223" y2="37.40" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="126.72" x2="231" y2="126.72" stroke="#334155" stroke-width="1.5"/><polygon points="235,126.72 228,123.22 228,130.22" fill="#334155"/><text x="227" y="140.72" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="42.42" y1="182" x2="42.42" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="42.42,10 38.92,17 45.92,17" fill="#334155"/><text x="48.42" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="31.42" y="138.72" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="62.94" y="138.72" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="103.98" y="138.72" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3</text><text x="145.02" y="138.72" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">5</text><text x="206.58" y="138.72" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">8</text><text x="36.42" y="165.64" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-23</text><text x="36.42" y="127.14" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="36.42" y="116.36" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">9</text><text x="36.42" y="40.90" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">58</text><line x1="62.94" y1="126.72" x2="62.94" y2="112.86" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="145.02" y1="126.72" x2="145.02" y2="162.14" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="3,2"/><line x1="206.58" y1="126.72" x2="206.58" y2="37.40" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="3,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="42.42,123.64 43.78,122.16 45.15,120.80 46.52,119.56 47.89,118.44 49.26,117.42 50.62,116.52 51.99,115.72 53.36,115.03 54.73,114.44 56.10,113.94 57.47,113.55 58.83,113.24 60.20,113.03 61.57,112.90 62.94,112.86 64.31,112.90 65.67,113.02 67.04,113.22 68.41,113.49 69.78,113.83 71.15,114.24 72.51,114.72 73.88,115.25 75.25,115.85 76.62,116.51 77.99,117.22 79.35,117.99 80.72,118.80 82.09,119.66 83.46,120.56 84.83,121.50 86.19,122.49 87.56,123.50 88.93,124.56 90.30,125.64 91.67,126.74 93.03,127.88 94.40,129.03 95.77,130.21 97.14,131.40 98.51,132.60 99.87,133.82 101.24,135.04 102.61,136.27 103.98,137.50 105.35,138.73 106.72,139.96 108.08,141.18 109.45,142.40 110.82,143.60 112.19,144.79 113.56,145.97 114.92,147.12 116.29,148.26 117.66,149.36 119.03,150.44 120.40,151.50 121.76,152.51 123.13,153.50 124.50,154.44 125.87,155.34 127.24,156.20 128.60,157.01 129.97,157.78 131.34,158.49 132.71,159.15 134.08,159.75 135.44,160.28 136.81,160.76 138.18,161.17 139.55,161.51 140.92,161.78 142.28,161.98 143.65,162.10 145.02,162.14 146.39,162.10 147.76,161.97 149.12,161.76 150.49,161.45 151.86,161.06 153.23,160.56 154.60,159.97 155.97,159.28 157.33,158.48 158.70,157.58 160.07,156.56 161.44,155.44 162.81,154.20 164.17,152.84 165.54,151.36 166.91,149.76 168.28,148.03 169.65,146.17 171.01,144.19 172.38,142.06 173.75,139.80 175.12,137.41 176.49,134.86 177.85,132.18 179.22,129.34 180.59,126.36 181.96,123.22 183.33,119.93 184.69,116.47 186.06,112.86 187.43,109.08 188.80,105.14 190.17,101.02 191.53,96.73 192.90,92.27 194.27,87.63 195.64,82.81 197.01,77.80 198.37,72.61 199.74,67.23 201.11,61.66 202.48,55.89 203.85,49.93 205.22,43.77 206.58,37.40"/><circle cx="42.42" cy="123.64" r="3.5" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="62.94" cy="112.86" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="145.02" cy="162.14" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="206.58" cy="37.40" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="66.02" y="104.39" fill="#16a34a" font-size="9.8" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">極大(1,9)</text><text x="145.02" y="174.15" fill="#dc2626" font-size="9.8" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">最小 m=(5,-23)</text><text x="198.00" y="29.00" fill="#dc2626" font-size="9.8" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">最大 M=(8,58)</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同）</div></div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解：三次函數四等分比例秒殺判斷】</span>
+            此三次函數反曲點為 $x = 3$，極大點 $x = 1$、極小點 $x = 5$（間距 $\Delta x = 2$）。由三次函數<strong>四等分箱型對稱性質</strong>，與極大值 $f(1) = 9$ 同高的水平線交曲線另一點於 $x = 5 + 2 = 7$（即 $f(7) = 9$）。因為右端點 $x = 8 \gt 7$，故最大值必發生在右端點 $f(8) = 58$；同理，與極小值 $f(5) = -23$ 同高的另一點在 $x = 1 - 2 = -1 \notin [0, 8]$，故最小值必為極小值 $f(5) = -23$！
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【常見陷阱提醒】</span>
+            (1) <strong>區間過濾：</strong>解出 $f'(x) = 0$ 的臨界點後，務必先檢驗該根是否落在題目指定的閉區間 $[a, b]$ 內；若落在區間外面，絕對不能納入極值比較。<br>
+            (2) <strong>單調區間退化：</strong>若 $f'(x) = 0$ 在 $(a, b)$ 內無實根（代表函數在 $[a, b]$ 上全程嚴格遞增或嚴格遞減），則最大值與最小值必定直接發生在兩個端點 $f(a)$ 與 $f(b)$。
+        </div>
+        <span class="ans-tag">答：(3)</span>
+    </div>
+
+    <!-- ==================== 二、多選題 ==================== -->
+    <div id="sec-2" class="module-title">二、多選題，每題 5 分，共 20 分，答錯一個選項得 3 分，錯兩個得 1 分，答錯三個選項以上得 0 分。</div>
+
+    <!-- 第 3 題 -->
+    <div id="q-3" class="topic-card">
+        <div class="topic-header"><span>第 3 題：三次函數圖形特徴與各項係數正負號判讀</span><span class="page-badge">多選題 3</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                3. 右圖為三次函數 $f(x) = ax^3 + bx^2 + cx + d$ 的圖形，選出正確的選項：<br>
+                (1) $a \gt 0$ &nbsp; (2) $b \gt 0$ &nbsp; (3) $c \gt 0$ &nbsp; (4) $d \gt 0$ &nbsp; (5) $b^2 - 3ac \gt 0$
+                <div class="theorem-box">
+                    <span class="box-title">📘 【正規詳解】</span>
+                    一階與二階導函數分別為 $f'(x) = 3ax^2 + 2bx + c$、$f''(x) = 6ax + 2b$。<br>
+                    • <strong>(1) 正確</strong>：圖形最右端往右上無限延伸（當 $x \to \infty$ 時 $f(x) \to \infty$），故領導係數 <span class="hl-blue">$a \gt 0$</span>。<br>
+                    • <strong>(4) 正確</strong>：圖形與 $y$ 軸交點 $(0, d)$ 在原點上方，故常數項 <span class="hl-blue">$d = f(0) \gt 0$</span>。<br>
+                    • <strong>(3) 錯誤</strong>：$c = f'(0)$ 代表圖形在 $y$ 軸交點 $(0, d)$ 處的切線斜率。由圖可見 $(0, d)$ 位於極大點（在第二象限）與極小點（在第一象限）之間的嚴格遞減區間，故切線斜率 <span class="hl-red">$c = f'(0) \lt 0$</span>。<br>
+                    • <strong>(2) 錯誤</strong>：令極大點與極小點橫坐標分別為 $\alpha \lt 0 \lt \beta$。由圖形對稱性觀察，極大點在 $y$ 軸左側近處、極小點在 $y$ 軸右側較遠處，故反曲點橫坐標 $x_{\text{反}} = \d\frac{\alpha + \beta}{2} = -\frac{b}{3a} \gt 0$。因為 $a \gt 0$，所以 <span class="hl-red">$b \lt 0$</span>。<br>
+                    • <strong>(5) 正確</strong>：圖形有明顯的波峰（極大值）與波谷（極小值），代表導函數 $f'(x) = 3ax^2 + 2bx + c = 0$ 有兩個相異實根，其判別式 $D = (2b)^2 - 4(3a)(c) = 4(b^2 - 3ac) \gt 0 \implies \color{#2563eb}{b^2 - 3ac \gt 0}$。
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="240" height="219" viewBox="0 0 240 219" style="display:block;margin:0 auto;"><line x1="54" y1="22" x2="54" y2="195" stroke="#e2e8f0" stroke-width="1"/><line x1="146" y1="22" x2="146" y2="195" stroke="#e2e8f0" stroke-width="1"/><line x1="192" y1="22" x2="192" y2="195" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="124" x2="218" y2="124" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="78" x2="218" y2="78" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="32" x2="218" y2="32" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="170" x2="226" y2="170" stroke="#334155" stroke-width="1.5"/><polygon points="230,170 223,166.5 223,173.5" fill="#334155"/><text x="222" y="184" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="100" y1="201" x2="100" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="100,10 96.5,17 103.5,17" fill="#334155"/><text x="106" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="89" y="182" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><line x1="118.40" y1="170" x2="118.40" y2="107.90" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="37.90,171.79 39.38,161.80 40.85,152.30 42.33,143.29 43.80,134.74 45.28,126.66 46.76,119.03 48.23,111.84 49.71,105.09 51.19,98.76 52.66,92.85 54.14,87.35 55.61,82.24 57.09,77.53 58.57,73.19 60.04,69.22 61.52,65.62 63.00,62.36 64.47,59.45 65.95,56.88 67.42,54.63 68.90,52.69 70.38,51.06 71.85,49.73 73.33,48.69 74.80,47.93 76.28,47.43 77.76,47.20 79.23,47.22 80.71,47.48 82.19,47.98 83.66,48.70 85.14,49.63 86.61,50.77 88.09,52.11 89.57,53.63 91.04,55.34 92.52,57.21 93.99,59.24 95.47,61.43 96.95,63.75 98.42,66.21 99.90,68.79 101.38,71.49 102.85,74.29 104.33,77.19 105.80,80.18 107.28,83.24 108.76,86.38 110.23,89.57 111.71,92.81 113.19,96.10 114.66,99.42 116.14,102.76 117.61,106.11 119.09,109.47 120.57,112.83 122.04,116.17 123.52,119.49 124.99,122.77 126.47,126.02 127.95,129.22 129.42,132.35 130.90,135.42 132.38,138.41 133.85,141.32 135.33,144.13 136.80,146.83 138.28,149.42 139.76,151.89 141.23,154.23 142.71,156.42 144.19,158.46 145.66,160.35 147.14,162.06 148.61,163.60 150.09,164.95 151.57,166.10 153.04,167.05 154.52,167.78 155.99,168.29 157.47,168.57 158.95,168.61 160.42,168.39 161.90,167.91 163.38,167.17 164.85,166.14 166.33,164.83 167.80,163.22 169.28,161.31 170.76,159.08 172.23,156.52 173.71,153.64 175.18,150.41 176.66,146.82 178.14,142.88 179.61,138.57 181.09,133.88 182.57,128.80 184.04,123.32 185.52,117.44 186.99,111.14 188.47,104.41 189.95,97.25 191.42,89.65 192.90,81.60 194.38,73.08 195.85,64.10 197.33,54.63 198.80,44.68 200.28,34.23"/><circle cx="100.00" cy="68.97" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="118.40" cy="107.90" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="78.38" cy="47.18" r="3.2" fill="#2563eb" stroke="#2563eb" stroke-width="1.8"/><circle cx="158.42" cy="168.62" r="3.2" fill="#2563eb" stroke="#2563eb" stroke-width="1.8"/><text x="94.00" y="71.97" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">(0,d), c=f'(0)&lt;0</text><text x="124.40" y="108.90" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">反曲點 x=-b/3a&gt;0</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（原題圖形精準還原｜兩軸單位長 1:1 精準比例）</div></div>
+        </div>
+        <div class="clarify-box">
+            <span class="box-title">📋 【重點整理：三次函數 $f(x) = ax^3 + bx^2 + cx + d$ 係數正負速查表】</span>
+            <table class="math-table">
+                <thead>
+                    <tr><th>判斷目標</th><th>觀察圖形位置</th><th>幾何推論規則</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>領導係數 $a$</strong></td><td>圖形最右端趨勢</td><td>右端朝上 $\implies a \gt 0$；右端朝下 $\implies a \lt 0$</td></tr>
+                    <tr><td><strong>常數項 $d$</strong></td><td>與 $y$ 軸交點 $(0, d)$</td><td>交於原點上方 $\implies d \gt 0$；原點下方 $\implies d \lt 0$</td></tr>
+                    <tr><td><strong>一次項係數 $c$</strong></td><td>交 $y$ 軸處的切線斜率 $f'(0)$</td><td>穿越 $y$ 軸時正在上升 $\implies c \gt 0$；正在下降 $\implies c \lt 0$</td></tr>
+                    <tr><td><strong>二次項係數 $b$</strong></td><td>反曲點位置 $x_{\text{反}} = -\d\frac{b}{3a}$</td><td>$x_{\text{反}} \gt 0$（在 $y$ 軸右側）$\implies a, b$ 異號；$x_{\text{反}} \lt 0 \implies a, b$ 同號</td></tr>
+                    <tr><td><strong>判別式指標 $b^2 - 3ac$</strong></td><td>極值（波峰與波谷）個數</td><td>有兩極值 $\implies b^2 - 3ac \gt 0$；單調無極值 $\implies b^2 - 3ac \le 0$</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            判斷 $b$ 的正負時，反曲點橫坐標為 $x_{\text{反}} = -\d\frac{b}{3a}$，必須<strong>同時結合 $a$ 的正負號</strong>一起看（本題 $x_{\text{反}} \gt 0$ 且 $a \gt 0$，故 $b \lt 0$），切勿直接誤背「反曲點在右就 $b \gt 0$」！
+        </div>
+        <span class="ans-tag">答：(1)(4)(5)</span>
+    </div>
+
+    <!-- 第 4 題 -->
+    <div id="q-4" class="topic-card">
+        <div class="topic-header"><span>第 4 題：過拋物線外一點 $(5, 0)$ 的切線方程式</span><span class="page-badge">多選題 4</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                4. 通過點 $(5, 0)$ 而與拋物線 $y = x^2 - 9$ 相切的直線可為<br>
+                (1) $y = -7(x - 5)$ &nbsp; (2) $y = 2(x - 5)$ &nbsp; (3) $y = 27(x - 5)$ &nbsp; (4) $y = 20(x - 5)$ &nbsp; (5) $y = 18(x - 5)$
+                <div class="theorem-box">
+                    <span class="box-title">📘 【正規詳解】</span>
+                    <strong>步驟一：假設切點坐標並表示切線斜率</strong><br>
+                    設切點為 <span class="hl-blue">$P(t, t^2 - 9)$</span>。對 $y = x^2 - 9$ 微分得 $y' = 2x$，故在點 $P$ 的切線斜率為 <span class="hl-blue">$m = 2t$</span>。<br>
+                    <strong>步驟二：利用「點斜式」寫出切線方程式並代入定點 $(5, 0)$</strong><br>
+                    過切點 $P(t, t^2 - 9)$ 且斜率為 $2t$ 的切線方程式（點斜式）為：<br>
+                    \[ y - (t^2 - 9) = 2t(x - t) \]<br>
+                    因為此切線通過點 $(5, 0)$，將 $x = 5, y = 0$ 代入得：<br>
+                    \[ 0 - (t^2 - 9) = 2t(5 - t) \implies -t^2 + 9 = 10t - 2t^2 \implies t^2 - 10t + 9 = 0 \]
+                    因式分解得 $(t - 1)(t - 9) = 0 \implies \color{#2563eb}{t = 1 \text{ 或 } t = 9}$。<br>
+                    <strong>步驟三：代回求兩條切線方程式</strong><br>
+                    • 當 $t = 1$ 時：切線斜率 $m = 2(1) = 2$，切線為 <span class="hl-red">$y = 2(x - 5)$</span>（切點為 $(1, -8)$）。<br>
+                    • 當 $t = 9$ 時：切線斜率 $m = 2(9) = 18$，切線為 <span class="hl-red">$y = 18(x - 5)$</span>（切點為 $(9, 72)$）。<br>
+                    故選 <strong>(2)(5)</strong>。
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="245" height="200" viewBox="0 0 245 200" style="display:block;margin:0 auto;"><line x1="32.70" y1="22" x2="32.70" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="86.31" y1="22" x2="86.31" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="139.91" y1="22" x2="139.91" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="193.52" y1="22" x2="193.52" y2="176" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="165.43" x2="223" y2="165.43" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="97.49" x2="223" y2="97.49" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="43.14" x2="223" y2="43.14" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="151.84" x2="231" y2="151.84" stroke="#334155" stroke-width="1.5"/><polygon points="235,151.84 228,148.34 228,155.34" fill="#334155"/><text x="227" y="165.84" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="72.90" y1="182" x2="72.90" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="72.90,10 69.40,17 76.40,17" fill="#334155"/><text x="78.90" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="66.00" y="147.00" fill="#334155" font-size="9.5" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="32.70" y="163.84" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-3</text><text x="86.31" y="148.00" fill="#dc2626" font-size="9" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="139.91" y="164.50" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">5</text><text x="193.52" y="163.84" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">9</text><text x="66.90" y="168.93" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-9</text><text x="66.90" y="100.99" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">36</text><text x="66.90" y="46.64" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">72</text><line x1="39.40" y1="174.49" x2="213.62" y2="135.24" stroke="#dc2626" stroke-width="1.7"/><line x1="129.19" y1="173.58" x2="202.90" y2="24.11" stroke="#dc2626" stroke-width="1.7"/><line x1="86.31" y1="151.84" x2="86.31" y2="163.92" stroke="#dc2626" stroke-width="1.1" stroke-dasharray="2,2"/><line x1="193.52" y1="151.84" x2="193.52" y2="43.14" stroke="#dc2626" stroke-width="1.1" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="30.02,149.97 35.78,153.85 41.55,157.16 47.31,159.92 53.07,162.12 58.83,163.77 64.60,164.85 70.36,165.38 73.24,165.43 79.00,165.12 86.21,163.94 91.97,162.38 97.73,160.25 103.49,157.57 109.26,154.32 115.02,150.52 120.78,146.16 126.54,141.24 132.31,135.77 138.07,129.73 143.83,123.14 149.59,115.99 155.36,108.28 161.12,100.01 166.88,91.19 172.64,81.80 178.41,71.86 184.17,61.36 189.93,50.30 193.52,43.14 198.58,32.66 202.90,23.37"/><circle cx="139.91" cy="151.84" r="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="86.31" cy="163.92" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="193.52" cy="43.14" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="148.00" y="146.00" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">定點(5,0)</text><text x="92.00" y="177.00" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">切點(1,-8), m=2</text><text x="188.16" y="39.36" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">切點(9,72), m=18</text><text x="78.00" y="79.37" fill="#2563eb" font-size="9.8" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y=x²-9</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同）</div></div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解：設斜率 $m$ 聯立判別式 $D = 0$ 法】</span>
+            因為五個選項皆為 $y = m(x - 5)$ 的形式，可直接設過點 $(5, 0)$ 的切線為 $y = m(x - 5)$（鉛直線 $x = 5$ 與拋物線僅交於 $(5, 16)$ 不相切），與拋物線 $y = x^2 - 9$ 聯立消去 $y$：<br>
+            \[ x^2 - 9 = m(x - 5) \implies x^2 - mx + (5m - 9) = 0 \]
+            相切代表重根，令判別式 $D = (-m)^2 - 4(1)(5m - 9) = 0$：<br>
+            \[ m^2 - 20m + 36 = 0 \implies (m - 2)(m - 18) = 0 \implies \color{#dc2626}{m = 2 \text{ 或 } m = 18} \]
+            直接得出切線為 $y = 2(x - 5)$ 與 $y = 18(x - 5)$！
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            題目說「<strong>通過點 $(5, 0)$</strong> 而與拋物線相切」，先將 $x = 5$ 代入拋物線得 $5^2 - 9 = 16 \neq 0$，可見 $(5, 0)$ 是<strong>曲線外一點</strong>而非切點，千萬不可直接代 $y'(5) = 2(5) = 10$ 當作切線斜率！
+        </div>
+        <span class="ans-tag">答：(2)(5)</span>
+    </div>
+
+    <!-- 第 5 題 -->
+    <div id="q-5" class="topic-card">
+        <div class="topic-header"><span>第 5 題：由導函數 $y = f'(x)$ 圖形判讀原函數 $f(x)$ 的遞增、凹向與極值</span><span class="page-badge">多選題 5</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                5. 設實係數四次函數 $f(x) = ax^4 + bx^3 + cx^2 + dx + e$ 的導函數 $f'(x)$ 之圖形如下圖，試選出正確的選項？<br>
+                (1) $f(x)$ 在區間 $(-3, -2)$ 是遞增函數<br>
+                (2) $f(x)$ 的圖形在區間 $(-3, -2)$ 為凹口向下<br>
+                (3) $f(-3)$ 是 $f(x)$ 的極小值<br>
+                (4) $f(-2)$ 是 $f(x)$ 的極大值<br>
+                (5) $f(x)$ 的圖形有一個反曲點坐標為 $(0, f(0))$
+            </div>
+            <div class="flex-svg"><svg width="240" height="246" viewBox="0 0 240 246" style="display:block;margin:0 auto;"><line x1="60" y1="18" x2="60" y2="228" stroke="#e2e8f0" stroke-width="1"/><line x1="96" y1="18" x2="96" y2="228" stroke="#e2e8f0" stroke-width="1"/><line x1="132" y1="18" x2="132" y2="228" stroke="#e2e8f0" stroke-width="1"/><line x1="204" y1="18" x2="204" y2="228" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="156" x2="218" y2="156" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="120" x2="218" y2="120" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="84" x2="218" y2="84" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="48" x2="218" y2="48" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="192" x2="226" y2="192" stroke="#334155" stroke-width="1.5"/><polygon points="230,192 223,188.5 223,195.5" fill="#334155"/><text x="222" y="206" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="168" y1="234" x2="168" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="168,10 164.5,17 171.5,17" fill="#334155"/><text x="174" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="157" y="204" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="60" y="204" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-3</text><text x="96" y="204" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-2</text><text x="132" y="204" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-1</text><text x="162" y="123.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="162" y="51.5" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">4</text><line x1="96" y1="192" x2="96" y2="48" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="96" y1="48" x2="168" y2="48" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="56.04,230.30 57.29,217.62 58.54,205.48 59.79,193.87 61.04,182.78 62.30,172.21 63.55,162.15 64.80,152.58 66.05,143.49 67.30,134.89 68.55,126.75 69.80,119.07 71.05,111.85 72.30,105.06 73.55,98.71 74.80,92.78 76.06,87.27 77.31,82.16 78.56,77.45 79.81,73.12 81.06,69.17 82.31,65.60 83.56,62.38 84.81,59.51 86.06,56.98 87.31,54.79 88.57,52.92 89.82,51.37 91.07,50.12 92.32,49.17 93.57,48.50 94.82,48.12 96.07,48.00 97.32,48.14 98.57,48.54 99.83,49.18 101.08,50.05 102.33,51.14 103.58,52.45 104.83,53.96 106.08,55.68 107.33,57.58 108.58,59.66 109.83,61.90 111.08,64.31 112.34,66.87 113.59,69.58 114.84,72.41 116.09,75.37 117.34,78.45 118.59,81.63 119.84,84.91 121.09,88.28 122.34,91.72 123.59,95.24 124.84,98.82 126.10,102.45 127.35,106.12 128.60,109.82 129.85,113.55 131.10,117.30 132.35,121.05 133.60,124.80 134.85,128.54 136.10,132.26 137.36,135.95 138.61,139.60 139.86,143.20 141.11,146.74 142.36,150.22 143.61,153.62 144.86,156.94 146.11,160.17 147.36,163.29 148.61,166.30 149.87,169.20 151.12,171.96 152.37,174.58 153.62,177.06 154.87,179.38 156.12,181.53 157.37,183.51 158.62,185.31 159.87,186.91 161.12,188.31 162.38,189.50 163.63,190.47 164.88,191.21 166.13,191.71 167.38,191.97 168.63,191.97 169.88,191.70 171.13,191.16 172.38,190.33 173.63,189.22 174.88,187.80 176.14,186.07 177.39,184.02 178.64,181.64 179.89,178.92 181.14,175.86 182.39,172.44 183.64,168.66 184.89,164.50 186.14,159.96 187.39,155.02 188.65,149.69 189.90,143.94 191.15,137.78 192.40,131.18 193.65,124.15 194.90,116.67 196.15,108.74 197.40,100.34 198.65,91.47 199.91,82.11 201.16,72.27 202.41,61.92 203.66,51.06 204.91,39.68 206.16,27.77"/><circle cx="60" cy="192" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="96" cy="48" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="168" cy="192" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="60" y="220" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">(-3,0)</text><text x="96" y="36" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">(-2,4)</text><text x="174" y="214" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">(0,0)</text><text x="198" y="82" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y=f'(x)</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（原題導函數圖形精準還原｜兩軸單位長 1:1 精準比例）</div></div>
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <div class="flex-row">
+                <div class="flex-text">
+                    題目給定的是<strong>一階導函數 $y = f'(x)$</strong> 的圖形（可寫為 $f'(x) = x^2(x + 3) = x^3 + 3x^2$，積分還原得原四次函數 $f(x) = \d\frac{1}{4}x^4 + x^3 + e$，如右圖所示）：<br>
+                    • <strong>看 $f'(x)$ 的正負號（在 $x$ 軸上方或下方）決定 $f(x)$ 的遞增／遞減與極值：</strong><br>
+                    &nbsp;&nbsp;- <strong>(1) 正確</strong>：在區間 $(-3, -2)$ 內，$f'(x)$ 圖形位於 $x$ 軸上方，即 <span class="hl-blue">$f'(x) \gt 0$</span>，故原函數 $f(x)$ 在 $(-3, -2)$ 為嚴格遞增函數。<br>
+                    &nbsp;&nbsp;- <strong>(3) 正確</strong>：在 $x = -3$ 左側 $f'(x) \lt 0$（$f$ 遞減），右側 $f'(x) \gt 0$（$f$ 遞增），導數由負變正，故 <span class="hl-blue">$f(-3)$ 是 $f(x)$ 的極小值</span>。<br>
+                    &nbsp;&nbsp;- <strong>(4) 錯誤</strong>：在 $x = -2$ 處，$f'(-2) = 4 \neq 0$（該點是導函數 $f'(x)$ 的極大點，也是原函數 $f(x)$ 的反曲點），$f'(x)$ 在 $x = -2$ 左右兩側皆為正，原函數持續遞增，故 $f(-2)$ 不是 $f(x)$ 的極值。<br>
+                    • <strong>看 $f'(x)$ 的遞增／遞減（即切線斜率 $f''(x)$ 的正負）決定 $f(x)$ 的凹向與反曲點：</strong><br>
+                    &nbsp;&nbsp;- <strong>(2) 錯誤</strong>：在區間 $(-3, -2)$ 內，$f'(x)$ 圖形嚴格遞增，代表二階導數 <span class="hl-red">$f''(x) \gt 0$</span>，故原函數 $f(x)$ 的圖形在 $(-3, -2)$ 為<strong>凹口向上</strong>。<br>
+                    &nbsp;&nbsp;- <strong>(5) 正確</strong>：$x = 0$ 是導函數 $f'(x)$ 的局部極小點，在 $x = 0$ 左側 $(-2, 0)$ 處 $f'(x)$ 遞減（$f''(x) \lt 0$，凹口向下），在 $x = 0$ 右側 $(0, \infty)$ 處 $f'(x)$ 遞增（$f''(x) \gt 0$，凹口向上）。因為 $x = 0$ 左右兩側凹向改變，故 <span class="hl-blue">$(0, f(0))$ 是 $f(x)$ 圖形的一個反曲點</span>（且為水平反曲點）。
+                </div>
+                <div class="flex-svg"><svg width="240" height="205" viewBox="0 0 240 205" style="display:block;margin:0 auto;"><line x1="55.54" y1="22" x2="55.54" y2="181" stroke="#e2e8f0" stroke-width="1"/><line x1="92.46" y1="22" x2="92.46" y2="181" stroke="#e2e8f0" stroke-width="1"/><line x1="129.38" y1="22" x2="129.38" y2="181" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="147.37" x2="218" y2="147.37" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="116.79" x2="218" y2="116.79" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="86.21" x2="218" y2="86.21" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="55.63" x2="226" y2="55.63" stroke="#334155" stroke-width="1.5"/><polygon points="230,55.63 223,52.13 223,59.13" fill="#334155"/><text x="222" y="69.63" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="166.31" y1="187" x2="166.31" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="166.31,10 162.81,17 169.81,17" fill="#334155"/><text x="172.31" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="155.31" y="67.63" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="55.54" y="67.63" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-3</text><text x="92.46" y="67.63" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-2</text><text x="129.38" y="67.63" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-1</text><text x="160.31" y="150.87" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-6</text><text x="160.31" y="120.29" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-4</text><text x="160.31" y="89.71" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-2</text><line x1="55.54" y1="55.63" x2="55.54" y2="158.83" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="92.46" y1="55.63" x2="92.46" y2="116.79" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="35.23,132.58 36.77,136.80 38.32,140.59 39.86,143.97 41.41,146.96 42.95,149.57 44.50,151.83 46.04,153.74 47.58,155.32 49.13,156.59 50.67,157.57 52.22,158.25 53.76,158.67 55.30,158.83 56.85,158.75 58.39,158.43 59.94,157.91 61.48,157.18 63.02,156.25 64.57,155.15 66.11,153.88 67.66,152.46 69.20,150.89 70.74,149.19 72.29,147.37 73.83,145.43 75.38,143.40 76.92,141.27 78.46,139.06 80.01,136.78 81.55,134.43 83.10,132.03 84.64,129.59 86.18,127.11 87.73,124.59 89.27,122.06 90.82,119.51 92.36,116.96 93.90,114.40 95.45,111.85 96.99,109.31 98.54,106.79 100.08,104.30 101.63,101.83 103.17,99.40 104.71,97.01 106.26,94.66 107.80,92.36 109.35,90.12 110.89,87.93 112.43,85.80 113.98,83.74 115.52,81.74 117.07,79.81 118.61,77.95 120.15,76.16 121.70,74.45 123.24,72.82 124.79,71.26 126.33,69.79 127.87,68.39 129.42,67.07 130.96,65.84 132.51,64.68 134.05,63.60 135.59,62.60 137.14,61.68 138.68,60.84 140.23,60.07 141.77,59.38 143.31,58.75 144.86,58.20 146.40,57.71 147.95,57.28 149.49,56.91 151.03,56.60 152.58,56.35 154.12,56.14 155.67,55.97 157.21,55.85 158.76,55.76 160.30,55.70 161.84,55.66 163.39,55.64 164.93,55.64 166.48,55.63 168.02,55.63 169.56,55.62 171.11,55.60 172.65,55.55 174.20,55.48 175.74,55.36 177.28,55.20 178.83,54.99 180.37,54.71 181.92,54.36 183.46,53.92 185.00,53.40 186.55,52.77 188.09,52.03 189.64,51.17 191.18,50.17 192.72,49.03 194.27,47.74 195.81,46.28 197.36,44.63 198.90,42.80 200.44,40.76 201.99,38.50 203.53,36.02 205.08,33.29"/><circle cx="55.54" cy="158.83" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="92.46" cy="116.79" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="166.31" cy="55.63" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><text x="64.77" y="174.12" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">極小(-3,f(-3))</text><text x="99.11" y="121.38" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">反曲(-2,f(-2))</text><text x="173.00" y="78.00" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">反曲(0,f(0))</text><text x="201.38" y="33.47" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">原函數 y=f(x)</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同｜原四次函數 y=f(x) 對照圖）</div></div>
+            </div>
+        </div>
+        <div class="clarify-box">
+            <span class="box-title">📋 【重點整理：觀察導函數 $f'(x)$ 圖形推論原函數 $f(x)$】</span>
+            <table class="math-table" style="max-width:620px;">
+                <thead>
+                    <tr><th style="width:52%;">觀察 $f'(x)$</th><th>推論 $f(x)$</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>$f'(x) \gt 0$</td><td>$f(x)$ 遞增</td></tr>
+                    <tr><td>$f'(x) \lt 0$</td><td>$f(x)$ 遞減</td></tr>
+                    <tr><td>$f'$ 由負變正</td><td>$f$ 有極小值</td></tr>
+                    <tr><td>$f'$ 由正變負</td><td>$f$ 有極大值</td></tr>
+                    <tr><td>$f'(x)$ 遞增</td><td>$f''(x) \gt 0$，$f$ 凹口向上</td></tr>
+                    <tr><td>$f'(x)$ 遞減</td><td>$f''(x) \lt 0$，$f$ 凹口向下</td></tr>
+                    <tr><td>$f'$ 由遞增變遞減，或相反</td><td>$f$ 可能有反曲點</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            1. <strong>勿把 $f'(x)$ 的波峰當成 $f(x)$ 的極大值：</strong>圖中 $(-2, 4)$ 是 $f'(x)$ 的波峰，代表 $f'(x)$ 在 $x = -2$ 由遞增變遞減，因此 $x = -2$ 是 $f(x)$ 的<strong>反曲點</strong>而非極大點。<br>
+            2. <strong>切軸不變號無極值：</strong>在 $(0, 0)$ 處 $f'(x)$ 僅與 $x$ 軸相切而未穿軸變號，故 $f(x)$ 在 $x = 0$ 無極值，而是<strong>水平反曲點</strong>。
+        </div>
+        <span class="ans-tag">答：(1)(3)(5)</span>
+    </div>
+
+    <!-- 第 6 題 -->
+    <div id="q-6" class="topic-card">
+        <div class="topic-header"><span>第 6 題：高次實係數多項式函數的極值個數、凹凸性與次數判定</span><span class="page-badge">多選題 6</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                6. 已知實係數多項式 $f(x)$ 的次數大於 $5$，且其最高次項係數為正。又 $f(x)$ 在 $x = 1$、$2$、$4$ 處有極小值，且在 $x = 3$、$5$ 處有極大值。根據上述，試選出正確的選項。<br>
+                (1) $f(x)$ 的極值個數不可能超過 $5$<br>
+                (2) $f(2) \lt f(5)$<br>
+                (3) $f''(3) \lt 0$<br>
+                (4) 存在實數 $a, b$ 滿足 $5 \lt a \lt b$，使得 $f'(a) \lt 0$ 且 $f'(b) \gt 0$<br>
+                (5) $f(x)$ 的次數至少為 $8$ 次
+            </div>
+            <div class="flex-svg"><svg width="245" height="195" viewBox="0 0 245 195" style="display:block;margin:0 auto;"><line x1="50" y1="18" x2="50" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="80" y1="18" x2="80" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="110" y1="18" x2="110" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="140" y1="18" x2="140" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="170" y1="18" x2="170" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="200" y1="18" x2="200" y2="165" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="105" x2="225" y2="105" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="60" x2="225" y2="60" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="150" x2="230" y2="150" stroke="#334155" stroke-width="1.5"/><polygon points="234,150 227,146.5 227,153.5" fill="#334155"/><text x="226" y="164" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="26" y1="170" x2="26" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="26,10 22.5,17 29.5,17" fill="#334155"/><text x="32" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="50" y="164" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1(小)</text><text x="80" y="164" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2(小)</text><text x="110" y="164" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3(大)</text><text x="140" y="164" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">4(小)</text><text x="170" y="164" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">5(大)</text><text x="200" y="164" fill="#16a34a" font-size="9" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">c₂(小)</text><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="35.00,45.00 38.00,72.00 41.00,94.00 44.00,109.50 47.00,117.80 50.00,120.00 53.00,115.02 56.00,102.91 59.00,88.99 62.00,77.18 65.00,72.00 68.00,75.46 71.00,83.81 74.00,93.69 77.00,101.76 80.00,105.00 83.00,103.32 86.00,98.64 89.00,91.68 92.00,82.92 95.00,75.00 98.00,67.08 101.00,58.32 104.00,51.36 107.00,46.68 110.00,45.00 113.00,47.38 116.00,54.08 119.00,64.42 122.00,77.68 125.00,87.50 128.00,102.32 131.00,115.58 134.00,125.92 137.00,128.62 140.00,130.00 143.00,128.74 146.00,125.16 149.00,119.66 152.00,112.64 155.00,107.50 158.00,102.36 161.00,95.34 164.00,89.84 167.00,86.26 170.00,85.00 173.00,86.40 176.00,90.40 179.00,96.60 182.00,104.40 185.00,110.00 188.00,118.60 191.00,126.40 194.00,131.60 197.00,134.10 200.00,135.00 203.00,132.50 206.00,124.20 209.00,110.00 212.00,90.00 215.00,64.00 218.00,32.00"/><circle cx="50" cy="120" r="3.5" fill="#2563eb"/><circle cx="65" cy="72" r="3.5" fill="#16a34a"/><circle cx="80" cy="105" r="3.5" fill="#2563eb"/><circle cx="110" cy="45" r="3.5" fill="#dc2626"/><circle cx="140" cy="130" r="3.5" fill="#dc2626"/><circle cx="170" cy="85" r="3.5" fill="#dc2626"/><circle cx="200" cy="135" r="3.5" fill="#16a34a"/><text x="65" y="63" fill="#16a34a" font-size="9" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">必有極大c₁</text><text x="200" y="125" fill="#16a34a" font-size="9" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">必有極小c₂</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同｜至少 7 個極值、8 次多項式）</div></div>
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            多項式函數處處連續可微，其<strong>局部極小值與局部極大值在數線上必交替出現</strong>（如右上圖）：<br>
+            1. <strong>先抓出隱藏的極值點（破題核心）：</strong><br>
+            &nbsp;&nbsp;• 因為在 $x = 1$ 與 $x = 2$ 處皆有<strong>極小值</strong>，在區間 $(1, 2)$ 內必存在至少一個<strong>極大點 $c_1 \in (1, 2)$</strong>。<br>
+            &nbsp;&nbsp;• 因為在 $x = 5$ 處有<strong>極大值</strong>，所以在 $x = 5$ 的右側鄰域函數必先嚴格遞減（即存在 $a \gt 5$ 使得 $f'(a) \lt 0$）；但又知 $f(x)$ 最高次項係數為正，當 $x \to \infty$ 時 $f(x) \to \infty$ 且 $f'(x) \to \infty$（即存在 $b \gt a \gt 5$ 使得 $f'(b) \gt 0$）。因此在 $(5, \infty)$ 內必存在至少一個<strong>極小點 $c_2 \gt 5$</strong>！<br>
+            2. <strong>逐項判讀：</strong><br>
+            &nbsp;&nbsp;• <strong>(1) 錯誤</strong>：光是已知的 5 個極值加上必存在的 $c_1 \in (1, 2)$ 與 $c_2 \in (5, \infty)$，極值個數<strong>至少有 $7$ 個</strong>。<br>
+            &nbsp;&nbsp;• <strong>(2) 錯誤</strong>：$f(2)$ 與 $f(5)$ 分別是不同區間的局部極小值與局部極大值，題目僅限制 $f(2) \lt f(3)$ 且 $f(4) \lt f(5)$，若在 $(3, 4)$ 下降幅度極大，完全可能發生 $f(2) \gt f(5)$（如右上圖 $f(2)$ 高於 $f(5)$）。<br>
+            &nbsp;&nbsp;• <strong>(3) 錯誤</strong>：$x = 3$ 為局部極大點，僅能保證 $f''(3) \le 0$，不一定嚴格小於 $0$（例如當 $(x-3)^4$ 重根出現時，$f''(3) = 0$）。<br>
+            &nbsp;&nbsp;• <strong>(4) 正確</strong>：如第 1 點所述，$x = 5$ 為極大點，故其右側近處必有 $a \gt 5$ 使 $f'(a) \lt 0$；又領導係數為正，當 $b$ 足夠大時必有 $f'(b) \gt 0$。<br>
+            &nbsp;&nbsp;• <strong>(5) 正確</strong>：因為 $f(x)$ 至少有 $7$ 個相異極值點（$1, c_1, 2, 3, 4, 5, c_2$），在這 $7$ 個點處導函數 $f'(x)$ 皆有變號實根，故 $\deg f'(x) \ge 7 \implies \color{#2563eb}{\deg f(x) \ge 8}$（且兩端在 $x \to \pm\infty$ 皆趨近 $+\infty$，必為偶數次，最少 $8$ 次）。
+        </div>
+        <div class="clarify-box">
+            <span class="box-title">📋 【重點整理：多項式極值交替定理與次數下界判定】</span>
+            • <strong>極值交替出現：</strong>處處連續可微的多項式函數，任意兩個局部極小值之間必存在至少一個局部極大值；任意兩個局部極大值之間也必存在至少一個局部極小值。<br>
+            • <strong>次數下界公式：</strong>若 $f(x)$ 至少有 $k$ 個局部極值點，則導函數 $f'(x) = 0$ 至少有 $k$ 個變號實根，故 $\deg f'(x) \ge k \implies \deg f(x) \ge k + 1$；再搭配兩端趨勢（同向趨近 $+\infty$ 必為偶數次，反向趨近 $\pm\infty$ 必為奇數次）即可精準鎖定最低次數。
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            • <strong>局部極小值未必小於另一處的局部極大值：</strong>$f(2)$ 與 $f(5)$ 分別是不同區間的局部極值，選項 (2) 的 $f(2) \lt f(5)$ 並不一定成立。<br>
+            • <strong>極大點未必嚴格滿足 $f''(3) \lt 0$：</strong>二階導數檢定是充分非必要條件，若 $x = 3$ 處出現 $(x - 3)^4$ 偶次重根，則 $f''(3) = 0$，故僅能保證 $f''(3) \le 0$。
+        </div>
+        <span class="ans-tag">答：(4)(5)</span>
+    </div>
+
+    <!-- ==================== 三、填充題 ==================== -->
+    <div id="sec-3" class="module-title">三、填充題：每格 6 分，共 60 分。</div>
+
+    <!-- 第 7 題 -->
+    <div id="q-7" class="topic-card">
+        <div class="topic-header"><span>第 7 題：微分公式綜合演練（二階導數、乘積律、連鎖律、商律）</span><span class="page-badge">填充題 7.(1)～7.(4)</span></div>
+        <div>
+            7. (1) 設 $f(x) = x^2$，求 $\d\lim_{x \to 2025}\frac{f'(x) - f'(2025)}{x - 2025}$ 之值為 <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。(2) 設 $f(x) = (x^2 - 4x)(3x + 5)$，試求 $f'(2) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。<br>
+            (3) 設 $f(x) = 3(2x^2 - 3x - 1)^5$，試求 $f'(2) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。(4) 設 $f(x) = \d\frac{x + 1}{2x^2 + 3}$，試求 $f'(0) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <strong>(1) 二階導數定義：</strong><br>
+                            由導數定義知，所求極限即為二階導數 $f''(2025)$。因為 $f(x) = x^2 \implies f'(x) = 2x \implies f''(x) = 2$，故：<br>
+                            \[ \lim_{x \to 2025}\frac{f'(x) - f'(2025)}{x - 2025} = f''(2025) = \color{#dc2626}{2} \]
+                            <strong>(2) 微分乘積律 $(uv)' = u'v + uv'$：</strong><br>
+                            \[ f'(x) = (2x - 4)(3x + 5) + (x^2 - 4x) \cdot 3 \]
+                            將 $x = 2$ 代入（注意第一項 $2(2) - 4 = 0$ 直接消去）：<br>
+                            \[ f'(2) = 0 \cdot (11) + (4 - 8) \cdot 3 = \color{#dc2626}{-12} \]
+                            <strong>(3) 微分連鎖律 $\left[g(x)^n\right]' = n\left[g(x)\right]^{n-1} \cdot g'(x)$：</strong><br>
+                            \[ f'(x) = 3 \cdot 5(2x^2 - 3x - 1)^4 \cdot (4x - 3) = 15(2x^2 - 3x - 1)^4(4x - 3) \]
+                            將 $x = 2$ 代入（其中 $2(2)^2 - 3(2) - 1 = 1$，$4(2) - 3 = 5$）：<br>
+                            \[ f'(2) = 15 \cdot (1)^4 \cdot 5 = \color{#dc2626}{75} \]
+                            <strong>(4) 微分商律 $\left(\d\frac{u}{v}\right)' = \d\frac{u'v - uv'}{v^2}$：</strong><br>
+                            \[ f'(x) = \frac{1 \cdot (2x^2 + 3) - (x + 1)(4x)}{(2x^2 + 3)^2} \implies f'(0) = \frac{1 \cdot 3 - 1 \cdot 0}{3^2} = \color{#dc2626}{\frac{1}{3}} \]
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解與羅必達驗算】</span>
+            • <strong>7.(1) 羅必達法則驗算：</strong>原式為 $\d\frac{0}{0}$ 不定型，分子、分母同時對 $x$ 微分得：<br>
+            \[ \lim_{x \to 2025}\frac{f'(x) - f'(2025)}{x - 2025} \stackrel{\text{L'H}}{=} \lim_{x \to 2025}\frac{f''(x)}{1} = f''(2025) = \color{#dc2626}{2} \]
+        </div>
+        <span class="ans-tag">答：7.(1) $2$ &nbsp;｜&nbsp; 7.(2) $-12$ &nbsp;｜&nbsp; 7.(3) $75$ &nbsp;｜&nbsp; 7.(4) $\d\frac{1}{3}$</span>
+    </div>
+
+    <!-- 第 8 題 -->
+    <div id="q-8" class="topic-card">
+        <div class="topic-header"><span>第 8 題：由二階導函數與局部極值位置反求一階導數 $f'(0)$</span><span class="page-badge">填充題 8</span></div>
+        <div>
+            8. 已知多項式 $f(x)$ 滿足 $f''(x) = 8x + 10$，且 $y = f(x)$ 在 $x = 1$ 有局部極值，則 $f'(0) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <div class="flex-row">
+                <div class="flex-text">
+                    <strong>步驟一：由 $f''(x)$ 反推一階導函數 $f'(x)$</strong><br>
+                    因為 $f'(x)$ 微分後等於 $f''(x) = 8x + 10$，且常數項即為 $f'(0)$，可設：<br>
+                    \[ f'(x) = 4x^2 + 10x + f'(0) \]
+                    <strong>步驟二：利用極值點一階導數為 0 求解</strong><br>
+                    因為多項式函數 $y = f(x)$ 在 $x = 1$ 有局部極值，故必有 <span class="hl-blue">$f'(1) = 0$</span>（如右圖拋物線通過點 $(1, 0)$）：<br>
+                    \[ f'(1) = 4(1)^2 + 10(1) + f'(0) = 0 \implies 14 + f'(0) = 0 \implies \color{#dc2626}{f'(0) = -14} \]
+                </div>
+                <div class="flex-svg"><svg width="240" height="195" viewBox="0 0 240 195" style="display:block;margin:0 auto;"><line x1="63.05" y1="22" x2="63.05" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="130.42" y1="22" x2="130.42" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="197.79" y1="22" x2="197.79" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="153.62" x2="218" y2="153.62" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="123.82" x2="218" y2="123.82" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="89.05" x2="218" y2="89.05" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="54.28" x2="226" y2="54.28" stroke="#334155" stroke-width="1.5"/><polygon points="230,54.28 223,50.78 223,57.78" fill="#334155"/><text x="222" y="68.28" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="164.11" y1="177" x2="164.11" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="164.11,10 160.61,17 167.61,17" fill="#334155"/><text x="170.11" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">f'(x)</text><text x="153.11" y="66.28" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="63.05" y="66.28" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-3</text><text x="130.42" y="66.28" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-1</text><text x="197.79" y="66.28" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="158.11" y="157.12" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-20</text><text x="158.11" y="127.32" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-14</text><text x="158.11" y="92.55" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-7</text><line x1="122.00" y1="54.28" x2="122.00" y2="154.86" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="3,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="34.34,20.32 35.99,25.32 37.63,30.22 39.27,35.03 40.92,39.75 42.56,44.37 44.21,48.90 45.85,53.33 47.50,57.67 49.14,61.91 50.79,66.06 52.43,70.11 54.07,74.07 55.72,77.94 57.36,81.71 59.01,85.38 60.65,88.96 62.30,92.45 63.94,95.84 65.59,99.13 67.23,102.33 68.87,105.44 70.52,108.45 72.16,111.37 73.81,114.19 75.45,116.92 77.10,119.55 78.74,122.09 80.38,124.53 82.03,126.88 83.67,129.14 85.32,131.30 86.96,133.36 88.61,135.33 90.25,137.21 91.90,138.99 93.54,140.68 95.18,142.27 96.83,143.76 98.47,145.17 100.12,146.47 101.76,147.69 103.41,148.80 105.05,149.83 106.70,150.76 108.34,151.59 109.98,152.33 111.63,152.97 113.27,153.52 114.92,153.98 116.56,154.34 118.21,154.61 119.85,154.78 121.49,154.85 123.14,154.84 124.78,154.72 126.43,154.52 128.07,154.21 129.72,153.82 131.36,153.32 133.01,152.74 134.65,152.06 136.29,151.28 137.94,150.41 139.58,149.44 141.23,148.39 142.87,147.23 144.52,145.98 146.16,144.64 147.81,143.20 149.45,141.67 151.09,140.04 152.74,138.31 154.38,136.50 156.03,134.59 157.67,132.58 159.32,130.48 160.96,128.28 162.60,125.99 164.25,123.60 165.89,121.12 167.54,118.55 169.18,115.88 170.83,113.11 172.47,110.26 174.12,107.30 175.76,104.25 177.40,101.11 179.05,97.87 180.69,94.54 182.34,91.11 183.98,87.59 185.63,83.97 187.27,80.26 188.92,76.46 190.56,72.56 192.20,68.56 193.85,64.47 195.49,60.29 197.14,56.01 198.78,51.63 200.43,47.16 202.07,42.60 203.71,37.94 205.36,33.19 207.00,28.34 208.65,23.40"/><circle cx="197.79" cy="54.28" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="164.11" cy="123.82" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="122.00" cy="154.86" r="3.5" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><text x="186.00" y="42.00" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">極值點 f'(1)=0</text><text x="170.17" y="126.30" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">f'(0)=-14</text><text x="118.63" y="166.03" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">頂點 x=-5/4</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同）</div></div>
+            </div>
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            由二階導函數 $f''(x) = 8x + 10$ 反推一階導函數 $f'(x)$ 時，<strong>切勿漏掉積分常數項 $c = f'(0)$</strong>；再代入局部極值條件 $f'(1) = 0$ 即可精準求出 $f'(0)$。
+        </div>
+        <span class="ans-tag">答：$-14$</span>
+    </div>
+
+    <!-- 第 9 題 -->
+    <div id="q-9" class="topic-card">
+        <div class="topic-header"><span>第 9 題：由三次函數的反曲點坐標求未知係數</span><span class="page-badge">填充題 9</span></div>
+        <div>
+            9. 若三次函數 $f(x) = x^3 + ax^2 + bx + 1$ 圖形的反曲點為 $(-1, 8)$，試求 $(a, b) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <div class="flex-row">
+                <div class="flex-text">
+                    求一階與二階導函數：$f'(x) = 3x^2 + 2ax + b$，$f''(x) = 6x + 2a$。<br>
+                    <strong>步驟一：利用反曲點的二階導數 $f''(-1) = 0$ 求 $a$</strong><br>
+                    \[ f''(-1) = 6(-1) + 2a = 0 \implies \color{#2563eb}{a = 3} \]
+                    <strong>步驟二：利用反曲點 $(-1, 8)$ 在函數圖形上求 $b$</strong><br>
+                    將 $a = 3$ 與點 $(-1, 8)$ 代入 $f(x)$：<br>
+                    \[ f(-1) = (-1)^3 + 3(-1)^2 + b(-1) + 1 = 8 \implies -1 + 3 - b + 1 = 8 \implies 3 - b = 8 \implies \color{#2563eb}{b = -5} \]
+                    故數對 <span class="hl-red">$(a, b) = (3, -5)$</span>（如右圖對稱中心為反曲點 $(-1, 8)$）。
+                </div>
+                <div class="flex-svg"><svg width="240" height="195" viewBox="0 0 240 195" style="display:block;margin:0 auto;"><line x1="44.82" y1="22" x2="44.82" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="82.47" y1="22" x2="82.47" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="120.12" y1="22" x2="120.12" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="195.41" y1="22" x2="195.41" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="96.50" x2="218" y2="96.50" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="48.82" x2="218" y2="48.82" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="144.18" x2="226" y2="144.18" stroke="#334155" stroke-width="1.5"/><polygon points="230,144.18 223,140.68 223,147.68" fill="#334155"/><text x="222" y="158.18" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="157.76" y1="177" x2="157.76" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="157.76,10 154.26,17 161.26,17" fill="#334155"/><text x="163.76" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="146.76" y="156.18" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="44.82" y="156.18" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-3</text><text x="82.47" y="156.18" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-2</text><text x="120.12" y="156.18" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-1</text><text x="195.41" y="156.18" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="151.76" y="100.00" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">8</text><text x="151.76" y="52.32" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">16</text><line x1="120.12" y1="144.18" x2="120.12" y2="96.50" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="157.76" y1="96.50" x2="120.12" y2="96.50" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="30.52,63.37 32.15,61.13 33.78,59.05 35.40,57.12 37.03,55.34 38.66,53.70 40.29,52.22 41.92,50.87 43.55,49.67 45.18,48.60 46.81,47.66 48.44,46.86 50.07,46.18 51.70,45.62 53.32,45.19 54.95,44.88 56.58,44.68 58.21,44.60 59.84,44.62 61.47,44.76 63.10,44.99 64.73,45.33 66.36,45.77 67.99,46.30 69.62,46.93 71.24,47.64 72.87,48.44 74.50,49.33 76.13,50.30 77.76,51.34 79.39,52.46 81.02,53.66 82.65,54.92 84.28,56.25 85.91,57.64 87.54,59.10 89.16,60.61 90.79,62.18 92.42,63.80 94.05,65.47 95.68,67.18 97.31,68.94 98.94,70.74 100.57,72.58 102.20,74.45 103.83,76.35 105.46,78.28 107.08,80.24 108.71,82.22 110.34,84.22 111.97,86.24 113.60,88.28 115.23,90.32 116.86,92.38 118.49,94.44 120.12,96.50 121.75,98.56 123.38,100.62 125.00,102.68 126.63,104.72 128.26,106.76 129.89,108.78 131.52,110.78 133.15,112.76 134.78,114.72 136.41,116.65 138.04,118.55 139.67,120.42 141.30,122.26 142.92,124.06 144.55,125.82 146.18,127.53 147.81,129.20 149.44,130.82 151.07,132.39 152.70,133.90 154.33,135.36 155.96,136.75 157.59,138.08 159.22,139.34 160.84,140.54 162.47,141.66 164.10,142.70 165.73,143.67 167.36,144.56 168.99,145.36 170.62,146.07 172.25,146.70 173.88,147.23 175.51,147.67 177.14,148.01 178.76,148.24 180.39,148.38 182.02,148.40 183.65,148.32 185.28,148.12 186.91,147.81 188.54,147.38 190.17,146.82 191.80,146.14 193.43,145.34 195.06,144.40 196.68,143.33 198.31,142.13 199.94,140.78 201.57,139.30 203.20,137.66 204.83,135.88 206.46,133.95 208.09,131.87 209.72,129.63"/><circle cx="120.12" cy="96.50" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="58.64" cy="44.59" r="3.5" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="181.60" cy="148.41" r="3.5" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><text x="113.34" y="91.73" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">反曲點(-1,8)</text><text x="145.00" y="34.00" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">f(x)=x³+3x²-5x+1</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同）</div></div>
+            </div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解：反曲點標準式比較係數法（免微分解法）】</span>
+            首項係數為 $1$、反曲點為 $(-1, 8)$ 的三次函數可直接寫成無 $(x + 1)^2$ 項的標準形式：<br>
+            \[ f(x) = (x + 1)^3 + p(x + 1) + 8 = x^3 + 3x^2 + (p + 3)x + (p + 9) \]
+            與原式 $x^3 + ax^2 + bx + 1$ 比較係數：常數項 $p + 9 = 1 \implies p = -8$，故 $\color{#dc2626}{a = 3}$、$b = p + 3 = \color{#dc2626}{-5}$！
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            三次函數在反曲點處滿足的是<strong>二階導數 $f''(-1) = 0$</strong>（切線斜率 $f'(-1)$ 不一定為 $0$），切勿誤列成 $f'(-1) = 0$！
+        </div>
+        <span class="ans-tag">答：$(3, -5)$</span>
+    </div>
+
+    <!-- 第 10 題 -->
+    <div id="q-10" class="topic-card">
+        <div class="topic-header"><span>第 10 題：三次函數沒有極值的判別式條件</span><span class="page-badge">填充題 10</span></div>
+        <div>
+            10. 若函數 $f(x) = x^3 + kx^2 + (k + 6)x + 3$ 沒有極值，則實數 $k$ 的範圍為 <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            對三次函數求一階導函數：<br>
+            \[ f'(x) = 3x^2 + 2kx + (k + 6) \]
+            三次函數 $f(x)$ <strong>沒有極值</strong> $\iff$ 導函數 $f'(x) = 0$ <strong>沒有相異實根</strong>（即重根或無實根）$\iff$ 判別式 <span class="hl-blue">$D \le 0$</span>：<br>
+            \[ D = (2k)^2 - 4 \cdot 3 \cdot (k + 6) \le 0 \implies 4(k^2 - 3k - 18) \le 0 \implies (k + 3)(k - 6) \le 0 \]
+            解得實數 $k$ 的範圍為 <span class="hl-red">$-3 \le k \le 6$</span>。
+        </div>
+        <div class="flex-row">
+            <div class="flex-text">
+                <div class="tip-box" style="margin:0;">
+                    <span class="box-title">⚠️ 【易錯盲點提醒：等號務必包含】</span>
+                    當 $k = -3$ 或 $k = 6$ 時，$f'(x) = 0$ 為重根（$f'(x) \ge 0$ 恆成立），函數嚴格遞增、在重根處為水平反曲點，<strong>同樣沒有極值</strong>！因此判別式務必寫 $D \le 0$，千萬不可漏掉等號！
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="235" height="217" viewBox="0 0 235 217" style="display:block;margin:0 auto;"><line x1="45" y1="22" x2="45" y2="193" stroke="#e2e8f0" stroke-width="1"/><line x1="125" y1="22" x2="125" y2="193" stroke="#e2e8f0" stroke-width="1"/><line x1="165" y1="22" x2="165" y2="193" stroke="#e2e8f0" stroke-width="1"/><line x1="205" y1="22" x2="205" y2="193" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="121" x2="213" y2="121" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="81" x2="213" y2="81" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="41" x2="213" y2="41" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="161" x2="221" y2="161" stroke="#334155" stroke-width="1.5"/><polygon points="225,161 218,157.5 218,164.5" fill="#334155"/><text x="217" y="175" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="85" y1="199" x2="85" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="85,10 81.5,17 88.5,17" fill="#334155"/><text x="91" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="74" y="173" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="45" y="173" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-1</text><text x="125" y="173" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="165" y="173" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="205" y="173" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3</text><text x="79" y="124.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="79" y="84.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="79" y="44.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3</text><polyline fill="none" stroke="#dc2626" stroke-width="2.3" points="53.00,83.24 61.00,99.56 69.00,113.96 77.00,126.44 85.00,137.00 93.00,145.64 101.00,152.36 109.00,157.16 117.00,160.04 125.00,161.00 133.00,160.04 141.00,157.16 149.00,152.36 157.00,145.64 165.00,137.00 173.00,126.44 181.00,113.96 189.00,99.56 197.00,83.24"/><polyline fill="none" stroke="#2563eb" stroke-width="2.1" stroke-dasharray="4,2" points="41.00,65.72 49.00,79.96 57.00,92.28 65.00,102.68 73.00,111.16 81.00,117.72 89.00,122.36 97.00,125.08 105.00,125.88 113.00,124.76 121.00,121.72 129.00,116.76 137.00,109.88 145.00,101.08 153.00,90.36 161.00,77.72 169.00,63.16 173.00,55.16"/><circle cx="125" cy="161" r="3.8" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="125" y="185" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">D=0 (k=-3或6)</text><text x="129" y="53" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">D&lt;0 (-3&lt;k&lt;6)</text><text x="172" y="108" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">恆 f'(x)≥0 無極值</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（兩軸單位長 1:1 精準比例｜導函數不穿過 x 軸）</div></div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解：反曲點切線斜率 $\ge 0$ 判別法】</span>
+            首項係數為正的三次函數，切線斜率最小的位置必在反曲點。令 $f''(x) = 6x + 2k = 0 \implies x_{\text{反}} = -\d\frac{k}{3}$，代入一階導數並要求反曲點切線斜率 $\ge 0$：<br>
+            \[ f'\left(-\frac{k}{3}\right) = 3\left(-\frac{k}{3}\right)^2 + 2k\left(-\frac{k}{3}\right) + k + 6 = -\frac{k^2}{3} + k + 6 \ge 0 \implies k^2 - 3k - 18 \le 0 \implies \color{#dc2626}{-3 \le k \le 6} \]
+        </div>
+        <span class="ans-tag">答：$-3 \le k \le 6$</span>
+    </div>
+
+    <!-- 第 11 題 -->
+    <div id="q-11" class="topic-card">
+        <div class="topic-header"><span>第 11 題：結合極限與極小值條件求三次函數 $f(x)$</span><span class="page-badge">填充題 11</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                11. 三次函數 $f(x)$ 滿足兩個條件：(1) 在 $x = 1$ 處有極小值 $-4$；(2) $\d\lim_{x \to 0}\frac{f(x)}{x} = -3$，試求 $f(x) =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+                <div class="theorem-box">
+                    <span class="box-title">📘 【正規詳解】</span>
+                    設三次函數 $f(x) = ax^3 + bx^2 + cx + d$（$a \neq 0$）。<br>
+                    <strong>步驟一：由條件 (2) 極限式直接讀出一次項與常數項</strong><br>
+                    因為當 $x \to 0$ 時分母為 $0$ 且極限為 $-3$，故分子必有 <span class="hl-blue">$f(0) = d = 0$</span>；且<br>
+                    \[ f'(0) = \lim_{x \to 0}\frac{f(x) - f(0)}{x - 0} = -3 \implies \color{#2563eb}{c = -3} \]
+                    因此可簡化為 $f(x) = ax^3 + bx^2 - 3x$，且導函數 $f'(x) = 3ax^2 + 2bx - 3$。<br>
+                    <strong>步驟二：由條件 (1) 在 $x = 1$ 處有極小值 $-4$ 聯立求 $a, b$</strong><br>
+                    \[ \begin{cases} f(1) = -4 \\ f'(1) = 0 \end{cases} \implies \begin{cases} a + b - 3 = -4 \\ 3a + 2b - 3 = 0 \end{cases} \implies \begin{cases} a + b = -1 \\ 3a + 2b = 3 \end{cases} \]
+                    兩式相減解得 <span class="hl-blue">$a = 5$</span>，<span class="hl-blue">$b = -6$</span>。<br>
+                    檢驗二階導數：$f''(x) = 30x - 12 \implies f''(1) = 18 \gt 0$（確為極小值）。<br>
+                    故 <span class="hl-red">$f(x) = 5x^3 - 6x^2 - 3x$</span>。
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="240" height="195" viewBox="0 0 240 195" style="display:block;margin:0 auto;"><line x1="53.93" y1="22" x2="53.93" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="158.65" y1="22" x2="158.65" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="193.56" y1="22" x2="193.56" y2="171" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="148.08" x2="218" y2="148.08" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="109.87" x2="218" y2="109.87" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="33.46" x2="218" y2="33.46" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="71.67" x2="226" y2="71.67" stroke="#334155" stroke-width="1.5"/><polygon points="230,71.67 223,68.17 223,75.17" fill="#334155"/><text x="222" y="85.67" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="88.84" y1="177" x2="88.84" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="88.84,10 85.34,17 92.34,17" fill="#334155"/><text x="94.84" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="77.84" y="83.67" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="53.93" y="83.67" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-0.5</text><text x="158.65" y="83.67" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="193.56" y="83.67" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1.5</text><text x="82.84" y="151.58" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-4</text><text x="82.84" y="113.37" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">-2</text><text x="82.84" y="36.96" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><line x1="50.44" y1="40.15" x2="141.20" y2="114.65" stroke="#16a34a" stroke-width="1.7" stroke-dasharray="4,2"/><line x1="158.65" y1="71.67" x2="158.65" y2="148.08" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="41.36,115.73 45.80,102.27 50.23,91.16 54.67,82.26 59.11,75.42 63.54,70.49 67.98,67.32 72.42,65.77 75.37,65.56 79.81,66.38 84.25,68.42 88.84,71.67 93.12,75.59 97.56,80.43 101.99,85.90 106.43,91.86 110.87,98.16 115.30,104.66 119.74,111.21 124.18,117.65 128.61,123.86 133.05,129.67 137.49,134.94 141.92,139.52 146.36,143.27 150.80,146.04 155.23,147.68 158.65,148.08 162.63,147.50 167.06,145.42 171.50,141.66 175.94,136.09 180.37,128.56 184.81,118.92 189.25,107.03 193.68,92.74 198.12,75.89 202.56,56.35 204.04,49.21"/><circle cx="88.84" cy="71.67" r="3.8" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><circle cx="158.65" cy="148.08" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="158.65" y="164.31" fill="#dc2626" font-size="9.8" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">極小(1,-4)</text><text x="97.21" y="63.07" fill="#16a34a" font-size="9.8" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">f'(0)=-3</text><text x="197.05" y="37.28" fill="#2563eb" font-size="9.8" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">f(x)=5x³-6x²-3x</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同）</div></div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解與羅必達驗算：極小值重根因式法】</span>
+            • <strong>羅必達法則驗算條件 (2)：</strong>$\d\lim_{x \to 0}\frac{f(x)}{x} \stackrel{\text{L'H}}{=} \lim_{x \to 0}\frac{f'(x)}{1} = f'(0) = -3$。<br>
+            • <strong>重根因式降次法：</strong>因為在 $x = 1$ 有極小值 $-4$，代表 $f(x) + 4$ 含有 $(x - 1)^2$ 的二重因式，可設 $f(x) = (x - 1)^2(ax + b) - 4$。代入 $f(0) = 0$ 得 $b - 4 = 0 \implies b = 4$；再由 $f'(0) = 2(-1)(4) + a(-1)^2 = -3 \implies a = 5$，展開即得 $\color{#dc2626}{5x^3 - 6x^2 - 3x}$！
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            求得係數後，務必代入二階導數檢驗 $f''(1) = 18 \gt 0$，確認 $x = 1$ 處確為<strong>極小值</strong>而非極大值。
+        </div>
+        <span class="ans-tag">答：$5x^3 - 6x^2 - 3x$</span>
+    </div>
+
+    <!-- 第 12 題 -->
+    <div id="q-12" class="topic-card">
+        <div class="topic-header"><span>第 12 題：函數在 $x=2$ 附近的一次估計（線性近似）</span><span class="page-badge">填充題 12.(1)～12.(2)</span></div>
+        <div>
+            12. 已知函數 $f(x) = \d\frac{16}{10x - x^2}$，回答下列問題。<br>
+            (1) $f(x)$ 在 $x = 2$ 附近的一次估計為 $y =$ <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。（以 $a_0 + a_1(x - 2)$ 形式作答，其中 $a_0, a_1$ 為常數）<br>
+            (2) 以(1)的結果求 $f(1.96)$ 的近似值為 <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u> 。
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <strong>(1) 求 $x = 2$ 處的函數值 $f(2)$ 與導數 $f'(2)$：</strong><br>
+            • 先求 $a_0 = f(2)$：<br>
+            \[ f(2) = \frac{16}{10(2) - 2^2} = \frac{16}{20 - 4} = \frac{16}{16} = \color{#2563eb}{1} \]
+            • 再將 $f(x) = 16(10x - x^2)^{-1}$ 微分求 $a_1 = f'(2)$：<br>
+            \[ f'(x) = -16(10x - x^2)^{-2} \cdot (10 - 2x) = \frac{-16(10 - 2x)}{(10x - x^2)^2} \]
+            代入 $x = 2$：<br>
+            \[ f'(2) = \frac{-16(10 - 4)}{16^2} = \frac{-16 \times 6}{16 \times 16} = \color{#2563eb}{-\frac{3}{8}} \]
+            故在 $x = 2$ 附近的一次估計（即切線方程式）為 <span class="hl-red">$y = 1 + \d\frac{-3}{8}(x - 2)$</span>（或寫作 $1 - \d\frac{3}{8}(x - 2)$）。<br>
+            <strong>(2) 代入 $x = 1.96$ 求近似值：</strong><br>
+            \[ f(1.96) \approx 1 - \frac{3}{8}(1.96 - 2) = 1 - \frac{3}{8}(-0.04) = 1 + 0.015 = \color{#dc2626}{1.015} \]
+        </div>
+        <div class="flex-row" style="margin-top:8px;">
+            <div class="flex-text">
+                <div class="clarify-box" style="margin:0;">
+                    <span class="box-title">💡 【幾何視覺化：切線一次近似逼近】</span>
+                    在切點 $(2, 1)$ 附近極小範圍內（如 $x = 1.96$），函數曲線 $y = \d\frac{16}{10x - x^2}$ 與切線 $y = 1 - \d\frac{3}{8}(x - 2)$ 幾乎重合，因此可用切線上的點 $(1.96, 1.015)$ 精準估計函數真值！
+                </div>
+            </div>
+            <div class="flex-svg"><svg width="235" height="182" viewBox="0 0 235 182" style="display:block;margin:0 auto;"><line x1="76" y1="22" x2="76" y2="158" stroke="#e2e8f0" stroke-width="1"/><line x1="116" y1="22" x2="116" y2="158" stroke="#e2e8f0" stroke-width="1"/><line x1="156" y1="22" x2="156" y2="158" stroke="#e2e8f0" stroke-width="1"/><line x1="196" y1="22" x2="196" y2="158" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="106" x2="213" y2="106" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="66" x2="213" y2="66" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="26" x2="213" y2="26" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="146" x2="221" y2="146" stroke="#334155" stroke-width="1.5"/><polygon points="225,146 218,142.5 218,149.5" fill="#334155"/><text x="217" y="160" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="36" y1="164" x2="36" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="36,10 32.5,17 39.5,17" fill="#334155"/><text x="42" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><text x="25" y="158" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="76" y="158" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="116" y="158" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="156" y="158" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3</text><text x="196" y="158" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">4</text><text x="30" y="109.5" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="30" y="69.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">2</text><text x="30" y="29.5" fill="#334155" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">3</text><line x1="116" y1="146" x2="116" y2="106" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><line x1="36" y1="106" x2="116" y2="106" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="2.4" points="58.40,24.93 59.81,31.70 61.23,37.70 62.64,43.06 64.06,47.88 65.47,52.23 66.89,56.18 68.30,59.79 69.72,63.08 71.13,66.11 72.55,68.91 73.96,71.49 75.37,73.88 76.79,76.11 78.20,78.19 79.62,80.13 81.03,81.94 82.45,83.64 83.86,85.24 85.28,86.75 86.69,88.17 88.11,89.51 89.52,90.78 90.93,91.98 92.35,93.12 93.76,94.20 95.18,95.23 96.59,96.21 98.01,97.14 99.42,98.03 100.84,98.88 102.25,99.69 103.67,100.46 105.08,101.21 106.49,101.92 107.91,102.60 109.32,103.25 110.74,103.88 112.15,104.48 113.57,105.06 114.98,105.61 116.40,106.15 117.81,106.66 119.23,107.16 120.64,107.64 122.05,108.10 123.47,108.54 124.88,108.97 126.30,109.38 127.71,109.78 129.13,110.17 130.54,110.54 131.96,110.90 133.37,111.25 134.79,111.59 136.20,111.91 137.61,112.23 139.03,112.53 140.44,112.83 141.86,113.11 143.27,113.39 144.69,113.66 146.10,113.92 147.52,114.17 148.93,114.41 150.35,114.65 151.76,114.88 153.17,115.10 154.59,115.32 156.00,115.52 157.42,115.73 158.83,115.92 160.25,116.11 161.66,116.30 163.08,116.47 164.49,116.65 165.91,116.82 167.32,116.98 168.73,117.13 170.15,117.29 171.56,117.43 172.98,117.58 174.39,117.72 175.81,117.85 177.22,117.98 178.64,118.11 180.05,118.23 181.47,118.34 182.88,118.46 184.29,118.57 185.71,118.67 187.12,118.77 188.54,118.87 189.95,118.97 191.37,119.06 192.78,119.15 194.20,119.23 195.61,119.31 197.03,119.39 198.44,119.46 199.85,119.54 201.27,119.60 202.68,119.67 204.10,119.73 205.51,119.79 206.93,119.85 208.34,119.90 209.76,119.95 211.17,120.00 212.59,120.04 214.00,120.09"/><line x1="40.00" y1="77.50" x2="210.00" y2="141.25" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="4,2"/><circle cx="116.00" cy="106.00" r="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="114.40" cy="105.40" r="3.2" fill="#16a34a" stroke="#16a34a" stroke-width="1.8"/><text x="120.00" y="96.00" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">切點(2,1), 斜率-3/8</text><text x="114.00" y="132.00" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x=1.96 近似 1.015</text><text x="72.00" y="38.00" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y=f(x)</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（兩軸單位長 1:1 精準比例｜切線一次逼近）</div></div>
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒】</span>
+            1. 將 $f(x) = 16(10x - x^2)^{-1}$ 微分時，務必使用<strong>連鎖律</strong>乘上內層導數 $(10 - 2x)$。<br>
+            2. 第 (2) 小題代入 $x = 1.96$ 時，注意 $x - 2 = 1.96 - 2 = -0.04$ 為<strong>負數</strong>，負負得正後近似值應為 $1 + 0.015 = 1.015$。
+        </div>
+        <span class="ans-tag">答：12.(1) $1 + \d\frac{-3}{8}(x - 2)$ &nbsp;｜&nbsp; 12.(2) $1.015$</span>
+    </div>
+
+    <!-- ==================== 四、計算題 ==================== -->
+    <div id="sec-4" class="module-title">四、計算題(有計算過程且全對才給分)：13.(1) 3 分，13.(2) 3 分，共 6 分。</div>
+
+    <!-- 第 13 題 -->
+    <div id="q-13" class="topic-card">
+        <div class="topic-header"><span>第 13 題：空間平面 $z=h$ 上圓內接正六角錐之內積與最大體積</span><span class="page-badge">計算題 13.(1)～13.(2)</span></div>
+        <div class="flex-row">
+            <div class="flex-text">
+                13. 坐標空間中，$O(0, 0, 0)$ 為原點。平面 $z = h$（其中 $0 \le h \le 1$）上有一以 $(0, 0, h)$ 為圓心的圓，在此圓上依逆時鐘順序取 $6$ 點構成正六邊形 $P_0P_1P_2P_3P_4P_5$，使得各線段 $\overline{OP_j}$（$0 \le j \le 5$）的長度都是 $1$。請參見示意圖。<br>
+                (1) 試以 $h$ 表示向量內積 $\overrightarrow{OP_0} \cdot \overrightarrow{OP_3}$。<br>
+                (2) 在 $\overrightarrow{OP_0}$ 和 $\overrightarrow{OP_3}$ 夾角不超過 $90^\circ$ 的條件下，若 $V(h)$ 為以 $O$ 為頂點、正六邊形 $P_0P_1P_2P_3P_4P_5$ 為底的正六角錐體積，試問正六角錐體積 $V(h)$ 的最大值為何？（註：角錐體積 $= \d\frac{1}{3} \times \text{底面積} \times \text{高}$）
+            </div>
+            <div class="flex-svg"><svg width="250" height="195" viewBox="0 0 250 195" style="display:block;margin:0 auto;"><line x1="58" y1="18" x2="58" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="194" y1="18" x2="194" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="45" x2="230" y2="45" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="81" x2="230" y2="81" stroke="#e2e8f0" stroke-width="1"/><line x1="24" y1="117" x2="230" y2="117" stroke="#e2e8f0" stroke-width="1"/><polygon points="48,58 192,58 228,104 30,104" fill="rgba(226,232,240,0.45)" stroke="#334155" stroke-width="1.3"/><ellipse cx="126" cy="81" rx="68" ry="18" fill="rgba(37,99,235,0.08)" stroke="#334155" stroke-width="1.3"/><polygon points="73.91,92.57 137.81,98.73 189.90,87.16 178.09,69.43 114.19,63.27 62.10,74.84" fill="rgba(37,99,235,0.16)" stroke="#2563eb" stroke-width="1.8"/><line x1="126" y1="152" x2="126" y2="18" stroke="#334155" stroke-width="1.5"/><polygon points="126,12 122.5,19 129.5,19" fill="#334155"/><text x="126" y="10" fill="#334155" font-size="10.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">z</text><line x1="126" y1="152" x2="236" y2="152" stroke="#334155" stroke-width="1.5"/><polygon points="240,152 233,148.5 233,155.5" fill="#334155"/><text x="242" y="155" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">y</text><line x1="126" y1="152" x2="88" y2="182" stroke="#334155" stroke-width="1.5"/><polygon points="84,185 91.5,183 87.5,178" fill="#334155"/><text x="80" y="191" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">x</text><line x1="126" y1="152" x2="73.91" y2="92.57" stroke="#dc2626" stroke-width="1.7"/><line x1="126" y1="152" x2="178.09" y2="69.43" stroke="#dc2626" stroke-width="1.7"/><line x1="126" y1="152" x2="137.81" y2="98.73" stroke="#334155" stroke-width="1.2"/><line x1="126" y1="152" x2="189.90" y2="87.16" stroke="#334155" stroke-width="1.2"/><line x1="126" y1="152" x2="114.19" y2="63.27" stroke="#334155" stroke-width="1.2"/><line x1="126" y1="152" x2="62.10" y2="74.84" stroke="#334155" stroke-width="1.2"/><line x1="73.91" y1="92.57" x2="178.09" y2="69.43" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/><circle cx="126" cy="152" r="3.5" fill="#dc2626"/><circle cx="126" cy="81" r="3" fill="#2563eb"/><circle cx="73.91" cy="92.57" r="2.8" fill="#dc2626"/><circle cx="178.09" cy="69.43" r="2.8" fill="#dc2626"/><text x="134" y="164" fill="#334155" font-size="10" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="128" y="76" fill="#2563eb" font-size="9.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">z = h</text><text x="70.91" y="102.57" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₀</text><text x="140.81" y="107.73" fill="#334155" font-size="9" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₁</text><text x="194.90" y="90.16" fill="#334155" font-size="9" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₂</text><text x="181.09" y="66.43" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₃</text><text x="112.19" y="59.27" fill="#334155" font-size="9" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₄</text><text x="58.10" y="73.84" fill="#334155" font-size="9" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₅</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：三維空間立體透視示意圖，非平面等比例坐標）</div></div>
+        </div>
+        <div class="theorem-box">
+            <span class="box-title">📘 【正規詳解】</span>
+            <div class="flex-row">
+                <div class="flex-text">
+                    <strong>(1) 求向量內積 $\overrightarrow{OP_0} \cdot \overrightarrow{OP_3}$：</strong><br>
+                    設平面 $z = h$ 上的圓心為 $C(0, 0, h)$，圓半徑為 $r$。因為 $\overline{OC} = h$ 且斜邊 $\overline{OP_j} = 1$，由畢氏定理得外接圓半徑：<br>
+                    \[ \color{#2563eb}{r = \sqrt{1 - h^2}} \]
+                    在正六邊形中，$P_0$ 與 $P_3$ 為通過圓心 $C$ 的對稱頂點（即 $\overline{P_0P_3}$ 為外接圓直徑），故向量 $\overrightarrow{CP_3} = -\overrightarrow{CP_0}$，且 $\overrightarrow{OC} \perp \overrightarrow{CP_0}$。將向量拆解為：<br>
+                    \[ \overrightarrow{OP_0} \cdot \overrightarrow{OP_3} = (\overrightarrow{OC} + \overrightarrow{CP_0}) \cdot (\overrightarrow{OC} - \overrightarrow{CP_0}) = |\overrightarrow{OC}|^2 - |\overrightarrow{CP_0}|^2 \]
+                    代入 $|\overrightarrow{OC}| = h$ 與 $|\overrightarrow{CP_0}| = r = \sqrt{1 - h^2}$：<br>
+                    \[ \overrightarrow{OP_0} \cdot \overrightarrow{OP_3} = h^2 - (1 - h^2) = \color{#dc2626}{2h^2 - 1} \]
+                    <strong>(2) 求正六角錐體積 $V(h)$ 的最大值：</strong><br>
+                    • <strong>先由夾角條件求 $h$ 的範圍</strong>：<br>
+                    因為 $\overrightarrow{OP_0}$ 和 $\overrightarrow{OP_3}$ 夾角不超過 $90^\circ$（且 $0 \le h \le 1$），故其內積必大於或等於 $0$：<br>
+                    \[ \overrightarrow{OP_0} \cdot \overrightarrow{OP_3} = 2h^2 - 1 \ge 0 \implies h^2 \ge \frac{1}{2} \implies \color{#2563eb}{\frac{1}{\sqrt{2}} \le h \le 1} \]
+                    • <strong>建立體積函數 $V(h)$ 並利用微分分析單調性</strong>：<br>
+                    底面正六邊形由 $6$ 個邊長為 $r = \sqrt{1 - h^2}$ 的正三角形拼成，底面積為 $6 \times \d\frac{\sqrt{3}}{4}r^2 = \frac{3\sqrt{3}}{2}(1 - h^2)$。故正六角錐體積函數為：<br>
+                    \[ V(h) = \frac{1}{3} \times \frac{3\sqrt{3}}{2}(1 - h^2) \times h = \color{#2563eb}{\frac{\sqrt{3}}{2}(h - h^3)},\quad \frac{1}{\sqrt{2}} \le h \le 1 \]
+                    求一階導數：<br>
+                    \[ V'(h) = \frac{\sqrt{3}}{2}(1 - 3h^2) \]
+                    令 $V'(h) = 0$ 得臨界點 $h = \d\frac{1}{\sqrt{3}}$。但注意 <span class="hl-red">$\d\frac{1}{\sqrt{3}} \lt \frac{1}{\sqrt{2}}$</span>（不在定義域 $\left[\d\frac{1}{\sqrt{2}}, 1\right]$ 內）！<br>
+                    如右圖體積函數曲線所示：在區間 $\left[\d\frac{1}{\sqrt{2}}, 1\right]$ 上，$3h^2 \ge \d\frac{3}{2} \gt 1 \implies V'(h) \lt 0$ 恆成立，即 $V(h)$ 在 $\left[\d\frac{1}{\sqrt{2}}, 1\right]$ 為<strong>嚴格遞減函數</strong>。<br>
+                    因此當 <span class="hl-red">$h = \d\frac{1}{\sqrt{2}}$</span>（即 $\angle P_0OP_3 = 90^\circ$）時，$V(h)$ 有最大值：<br>
+                    \[ V\left(\frac{1}{\sqrt{2}}\right) = \frac{\sqrt{3}}{2} \cdot \left(1 - \frac{1}{2}\right) \cdot \frac{1}{\sqrt{2}} = \frac{\sqrt{3}}{4\sqrt{2}} = \color{#dc2626}{\frac{\sqrt{6}}{8}} \]
+                </div>
+                <div class="flex-svg"><svg width="245" height="205" viewBox="0 0 245 205" style="display:block;margin:0 auto;"><line x1="94.75" y1="22" x2="94.75" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="137.38" y1="22" x2="137.38" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="158.14" y1="22" x2="158.14" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="205.00" y1="22" x2="205.00" y2="178" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="54.37" x2="223" y2="54.37" stroke="#e2e8f0" stroke-width="1"/><line x1="26" y1="45.00" x2="223" y2="45.00" stroke="#e2e8f0" stroke-width="1"/><rect x="158.14" y="22" width="46.86" height="138" fill="rgba(220,38,38,0.10)" stroke="none"/><line x1="20" y1="160" x2="231" y2="160" stroke="#334155" stroke-width="1.5"/><polygon points="235,160 228,156.5 228,163.5" fill="#334155"/><text x="227" y="174" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">h</text><line x1="45" y1="184" x2="45" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="45,10 41.5,17 48.5,17" fill="#334155"/><text x="51" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">V(h)</text><text x="34" y="172" fill="#334155" font-size="9.5" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O</text><text x="133.00" y="173" fill="#16a34a" font-size="9" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1/√3</text><text x="163.50" y="173" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1/√2</text><text x="205.00" y="173" fill="#334155" font-size="9" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1</text><text x="39" y="59.50" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">√6/8</text><text x="39" y="42.50" fill="#16a34a" font-size="9" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1/3</text><line x1="137.38" y1="160" x2="137.38" y2="45.00" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="3,2"/><line x1="45" y1="45.00" x2="137.38" y2="45.00" stroke="#16a34a" stroke-width="1.1" stroke-dasharray="2,2"/><line x1="158.14" y1="160" x2="158.14" y2="54.37" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="3,2"/><line x1="45" y1="54.37" x2="158.14" y2="54.37" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="2,2"/><polyline fill="none" stroke="#2563eb" stroke-width="1.8" stroke-dasharray="4,2" points="45.00,160.00 46.89,156.48 48.77,152.96 50.66,149.45 52.54,145.95 54.43,142.46 56.31,138.98 58.20,135.52 60.08,132.08 61.97,128.67 63.86,125.28 65.74,121.92 67.63,118.59 69.51,115.30 71.40,112.05 73.28,108.83 75.17,105.66 77.06,102.54 78.94,99.47 80.83,96.45 82.71,93.49 84.60,90.59 86.48,87.74 88.37,84.96 90.25,82.25 92.14,79.61 94.03,77.05 95.91,74.56 97.80,72.14 99.68,69.81 101.57,67.57 103.45,65.41 105.34,63.35 107.23,61.38 109.11,59.50 111.00,57.73 112.88,56.06 114.77,54.49 116.65,53.03 118.54,51.69 120.42,50.45 122.31,49.34 124.20,48.34 126.08,47.47 127.97,46.73 129.85,46.11 131.74,45.63 133.62,45.28 135.51,45.07 137.40,45.00 139.28,45.07 141.17,45.29 143.05,45.66 144.94,46.19 146.82,46.87 148.71,47.70 150.59,48.70 152.48,49.86 154.37,51.19 156.25,52.69 158.14,54.37"/><polyline fill="none" stroke="#2563eb" stroke-width="2.6" points="158.14,54.37 159.31,55.49 160.48,56.69 161.65,57.96 162.82,59.29 163.99,60.70 165.17,62.18 166.34,63.73 167.51,65.35 168.68,67.05 169.85,68.82 171.02,70.67 172.20,72.59 173.37,74.59 174.54,76.66 175.71,78.82 176.88,81.05 178.05,83.36 179.23,85.75 180.40,88.22 181.57,90.77 182.74,93.41 183.91,96.13 185.08,98.93 186.25,101.81 187.43,104.78 188.60,107.84 189.77,110.98 190.94,114.21 192.11,117.53 193.28,120.93 194.46,124.43 195.63,128.01 196.80,131.69 197.97,135.45 199.14,139.31 200.31,143.26 201.49,147.30 202.66,151.44 203.83,155.67 205.00,160.00"/><circle cx="137.38" cy="45.00" r="3.5" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/><circle cx="158.14" cy="54.37" r="4.2" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><circle cx="205.00" cy="160.00" r="3.5" fill="#dc2626" stroke="#dc2626" stroke-width="1.8"/><text x="128.00" y="34.00" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">1/√3(範圍外)</text><text x="163.00" y="49.50" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">最大 V(1/√2)=√6/8</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（註：兩軸刻度比例不同｜實線為可行域 [1/√2, 1]）</div></div>
+            </div>
+        </div>
+        <div class="example-box">
+            <span class="box-title">🔥 【學霸另解：空間坐標化法 ＋ 幾何二倍角法】</span>
+            <div class="flex-row">
+                <div class="flex-text">
+                    • <strong>第 (1) 小題另解一（空間坐標化法）：</strong>因為圓心在 $C(0, 0, h)$ 且圓周上的點到原點距離為 $1$，圓半徑為 $r = \sqrt{1 - h^2}$。由於 $P_0$ 與 $P_3$ 為通過圓心 $C$ 的直徑兩端點，不失一般性可設空間坐標為 $P_0\left(\sqrt{1 - h^2},\ 0,\ h\right)$、$P_3\left(-\sqrt{1 - h^2},\ 0,\ h\right)$，直接作內積運算：<br>
+                    \[ \overrightarrow{OP_0} \cdot \overrightarrow{OP_3} = \left(\sqrt{1 - h^2}\right)\left(-\sqrt{1 - h^2}\right) + 0 + h^2 = -(1 - h^2) + h^2 = \color{#dc2626}{2h^2 - 1} \]
+                    • <strong>第 (1) 小題另解二（縱截面二倍角公式）：</strong>如右圖縱截面等腰 $\triangle OP_0P_3$ 中，$\overline{OP_0} = \overline{OP_3} = 1$，高為 $h$，頂角一半 $\alpha$ 滿足 $\cos\alpha = h$，故 $\overrightarrow{OP_0} \cdot \overrightarrow{OP_3} = \cos 2\alpha = 2\cos^2\alpha - 1 = \color{#dc2626}{2h^2 - 1}$。
+                </div>
+                <div class="flex-svg"><svg width="240" height="180" viewBox="0 0 240 180" style="display:block;margin:0 auto;"><line x1="20" y1="45" x2="220" y2="45" stroke="#e2e8f0" stroke-width="1"/><line x1="20" y1="95" x2="220" y2="95" stroke="#e2e8f0" stroke-width="1"/><line x1="70" y1="18" x2="70" y2="162" stroke="#e2e8f0" stroke-width="1"/><line x1="170" y1="18" x2="170" y2="162" stroke="#e2e8f0" stroke-width="1"/><line x1="16" y1="145" x2="224" y2="145" stroke="#334155" stroke-width="1.5"/><polygon points="228,145 221,141.5 221,148.5" fill="#334155"/><text x="220" y="159" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">r</text><line x1="120" y1="164" x2="120" y2="14" stroke="#334155" stroke-width="1.5"/><polygon points="120,10 116.5,17 123.5,17" fill="#334155"/><text x="126" y="19" fill="#334155" font-size="10.5" font-weight="bold" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">z</text><polygon points="120,145 53.86,70.00 186.14,70.00" fill="rgba(37,99,235,0.12)" stroke="#2563eb" stroke-width="2.1"/><line x1="120" y1="145" x2="120" y2="70" stroke="#16a34a" stroke-width="1.7" stroke-dasharray="4,2"/><polyline points="120,78 128,78 128,70" fill="none" stroke="#16a34a" stroke-width="1.3"/><path d="M 108.1,131.5 A 18,18 0 0,1 131.9,131.5" fill="none" stroke="#dc2626" stroke-width="1.6"/><circle cx="120" cy="145" r="3.6" fill="#dc2626"/><circle cx="120" cy="70" r="3.4" fill="#16a34a"/><circle cx="53.86" cy="70.00" r="3.6" fill="#2563eb"/><circle cx="186.14" cy="70.00" r="3.6" fill="#2563eb"/><text x="112" y="158" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">O(0,0)</text><text x="125" y="63" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">C(0,h)</text><text x="50" y="64" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₀(-r,h)</text><text x="190" y="64" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₃(r,h)</text><text x="80" y="114" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">斜邊=1</text><text x="155" y="66" fill="#dc2626" font-size="9.2" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">r=√(1-h²)</text><text x="114" y="106" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">h</text><text x="120" y="124" fill="#dc2626" font-size="9.2" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">θ=2α≤90°</text></svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（兩軸單位長 1:1 精準比例｜縱截面 △OP₀P₃）</div></div>
+            </div>
+        </div>
+        <div class="clarify-box">
+            <span class="box-title">💡 【空間降維拆解：給空間概念較弱同學的三視圖指南】</span>
+            空間立體圖形看不清楚時，只要把三維角錐拆成<strong>「側視圖」</strong>與<strong>「俯視圖」</strong>兩個平面圖，全部都是國中幾何：<br>
+            • <strong>Step 1（側視圖看高度與半徑）：</strong>從側面水平看過去（下右圖），圓心 $C(0, 0, h)$ 在原點 $O$ 正上方（垂直於平面 $z = h$），因此 $\triangle OCP_j$ 必為<strong>直角三角形</strong>（$\angle OCP_j = 90^\circ$），直接用畢氏定理 $h^2 + r^2 = 1^2$ 算出底面圓半徑 $\color{#dc2626}{r = \sqrt{1 - h^2}}$。<br>
+            • <strong>Step 2（俯視圖看底面正六邊形）：</strong>從正上方往下看平面 $z = h$（下左圖），正六邊形可切成 <strong>$6$ 個邊長為 $r$ 的全等正三角形</strong>（底面積 $= 6 \times \d\frac{\sqrt{3}}{4}r^2$）；且對稱頂點 $P_0, P_3$ 連線必通過圓心 $C$ 成直徑（$\overrightarrow{CP_3} = -\overrightarrow{CP_0}$）。<br>
+            • <strong>Step 3（正切面看夾角限制）：</strong>把左右兩個直角 $\triangle OCP_0$ 與 $\triangle OCP_3$ 拼在一起，就是上方的等腰 $\triangle OP_0P_3$，頂角 $\theta \le 90^\circ$ 代表底邊不能張太開，迫使高度 $h \ge \d\frac{1}{\sqrt{2}}$！
+            <div class="flex-row" style="margin-top:12px;justify-content:center;gap:24px;">
+                <div class="flex-svg"><svg width="230" height="204" viewBox="0 0 230 204" style="display:block;margin:0 auto;">
+<line x1="53" y1="18" x2="53" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="115" y1="18" x2="115" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="177" y1="18" x2="177" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="40" x2="208" y2="40" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="102" x2="208" y2="102" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="164" x2="208" y2="164" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="115.00" cy="102.00" r="62.00" fill="rgba(37,99,235,0.06)" stroke="#334155" stroke-width="1.3" stroke-dasharray="3,2"/>
+<polygon points="53.00,102.00 84.00,155.69 146.00,155.69 177.00,102.00 146.00,48.31 84.00,48.31" fill="rgba(37,99,235,0.14)" stroke="#2563eb" stroke-width="2.0"/>
+<line x1="115.00" y1="102.00" x2="53.00" y2="102.00" stroke="#dc2626" stroke-width="1.7" stroke-dasharray="4,2"/><line x1="115.00" y1="102.00" x2="84.00" y2="155.69" stroke="#16a34a" stroke-width="1.1" stroke-dasharray="2,2"/><line x1="115.00" y1="102.00" x2="146.00" y2="155.69" stroke="#16a34a" stroke-width="1.1" stroke-dasharray="2,2"/><line x1="115.00" y1="102.00" x2="177.00" y2="102.00" stroke="#dc2626" stroke-width="1.7" stroke-dasharray="4,2"/><line x1="115.00" y1="102.00" x2="146.00" y2="48.31" stroke="#16a34a" stroke-width="1.1" stroke-dasharray="2,2"/><line x1="115.00" y1="102.00" x2="84.00" y2="48.31" stroke="#16a34a" stroke-width="1.1" stroke-dasharray="2,2"/>
+<circle cx="115.00" cy="102.00" r="3.5" fill="#16a34a"/>
+<circle cx="53.00" cy="102.00" r="3.6" fill="#dc2626"/><circle cx="84.00" cy="155.69" r="3.0" fill="#334155"/><circle cx="146.00" cy="155.69" r="3.0" fill="#334155"/><circle cx="177.00" cy="102.00" r="3.6" fill="#dc2626"/><circle cx="146.00" cy="48.31" r="3.0" fill="#334155"/><circle cx="84.00" cy="48.31" r="3.0" fill="#334155"/>
+<text x="46.00" y="106.00" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₀</text><text x="80.00" y="149.69" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₁</text><text x="150.00" y="149.69" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₂</text><text x="184.00" y="106.00" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₃</text><text x="150.00" y="60.31" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₄</text><text x="80.00" y="60.31" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">P₅</text>
+<text x="115.00" y="94.00" fill="#16a34a" font-size="9.2" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">C(0,0,h)</text>
+<text x="146.00" y="114.00" fill="#dc2626" font-size="9.2" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">半徑 r</text>
+<text x="115.00" y="29" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">6 個全等正三角形 (60°)</text>
+</svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（俯視圖：平面 z=h｜兩軸單位長 1:1 精準比例）</div></div>
+                <div class="flex-svg"><svg width="230" height="204" viewBox="0 0 230 204" style="display:block;margin:0 auto;">
+<line x1="56" y1="18" x2="56" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="106" y1="18" x2="106" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="156" y1="18" x2="156" y2="186" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="65" x2="208" y2="65" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="115" x2="208" y2="115" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="165" x2="208" y2="165" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="22" y1="65" x2="208" y2="65" stroke="#334155" stroke-width="1.3" stroke-dasharray="4,2"/>
+<polygon points="56,165 56,65 156,65" fill="rgba(22,163,74,0.12)" stroke="none"/>
+<line x1="56" y1="165" x2="56" y2="65" stroke="#16a34a" stroke-width="2.2"/>
+<line x1="56" y1="65" x2="156" y2="65" stroke="#dc2626" stroke-width="2.2"/>
+<line x1="56" y1="165" x2="156" y2="65" stroke="#2563eb" stroke-width="2.4"/>
+<polyline points="56,76 67,76 67,65" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<circle cx="56" cy="165" r="3.8" fill="#dc2626"/>
+<circle cx="56" cy="65" r="3.6" fill="#16a34a"/>
+<circle cx="156" cy="65" r="3.8" fill="#2563eb"/>
+<text x="56" y="180" fill="#334155" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">原點 O(0,0,0)</text>
+<text x="52" y="56" fill="#16a34a" font-size="9.5" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">圓心 C(0,0,h)</text>
+<text x="160" y="56" fill="#2563eb" font-size="9.5" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">頂點 Pⱼ</text>
+<text x="205" y="78" fill="#334155" font-size="9" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">平面 z=h</text>
+<text x="48" y="118" fill="#16a34a" font-size="9.8" font-weight="bold" text-anchor="end" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">高 h</text>
+<text x="108" y="57" fill="#dc2626" font-size="9.5" font-weight="bold" text-anchor="middle" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">r = √(1-h²)</text>
+<text x="115" y="124" fill="#2563eb" font-size="9.8" font-weight="bold" text-anchor="start" style="paint-order:stroke;stroke:#ffffff;stroke-width:3px;stroke-linejoin:round">側稜長 = 1</text>
+</svg><div style="font-size:11.5px;color:#64748b;text-align:center;margin-top:2px;">（側視圖：直角 △OCPⱼ｜兩軸單位長 1:1 精準比例）</div></div>
+            </div>
+        </div>
+        <div class="clarify-box">
+            <span class="box-title">📋 【重點整理：空間幾何極值四步驟】</span>
+            1. <strong>設定單變數與求尺寸：</strong>以高度 $h$ 表示底面外接圓半徑 $r = \sqrt{1 - h^2}$。<br>
+            2. <strong>由幾何條件定可行域：</strong>夾角 $\le 90^\circ \iff \overrightarrow{OP_0} \cdot \overrightarrow{OP_3} \ge 0 \iff \d\frac{1}{\sqrt{2}} \le h \le 1$。<br>
+            3. <strong>建立目標函數：</strong>正六邊形面積 $= 6 \times \d\frac{\sqrt{3}}{4}r^2$，代入角錐體積 $V = \d\frac{1}{3}Sh$。<br>
+            4. <strong>檢驗臨界點與端點：</strong>確認臨界點是否落在可行域內，若不在則比較端點值。
+        </div>
+        <div class="tip-box">
+            <span class="box-title">⚠️ 【易錯盲點提醒：定義域邊界陷阱】</span>
+            許多同學算出 $V'(h) = 0 \implies h = \d\frac{1}{\sqrt{3}}$ 就直接代入得 $\d\frac{1}{3}$，卻忘了檢驗第 (1) 小題給的夾角限制 $\theta \le 90^\circ \iff h \ge \d\frac{1}{\sqrt{2}}$！因為 $\d\frac{1}{\sqrt{3}} \approx 0.577 \lt \d\frac{1}{\sqrt{2}} \approx 0.707$，峰值落在可行域左側，故在 $\left[\d\frac{1}{\sqrt{2}}, 1\right]$ 內一路遞減，最大值必發生在左邊界 $h = \d\frac{1}{\sqrt{2}}$！
+        </div>
+        <span class="ans-tag">答：13.(1) $2h^2 - 1$ &nbsp;｜&nbsp; 13.(2) $\d\frac{\sqrt{6}}{8}$</span>
+    </div>
+
+</div>
+
+<script>
+function printDoc(){
+  if(window.MathJax&&MathJax.typesetPromise){MathJax.typesetPromise().then(()=>{window.print();});}
+  else{window.print();}
+}
+</script>
+<a href="#top-index" class="back-to-top" title="回到最上方目錄索引">↑ 回到索引</a>
+</body>
+</html>
